@@ -1,0 +1,190 @@
+# ISO 7241 vs ISO 16028 vs ISO 5675: Hydraulic Quick Coupling Interchange & Selection Guide
+
+> 范本（04-范本自审 第 1 篇）｜ 目标主词：iso 7241 coupling / hydraulic quick coupling interchange / iso 16028 / iso 5675
+> 字数目标：3000+ ｜ 数据来源：ISO 标准公开资料 + 竞对互换表（cosmic/ehhydraulics 实测）作识别线索，标注验证免责
+
+---
+
+Hydraulic quick couplings let operators connect and disconnect hydraulic hoses, machines, and attachments without breaking a threaded joint every time. Push the sleeve, seat the plug, release — the internal valves open and flow starts. Pull the sleeve again, and the valves close to limit fluid loss and air entry.
+
+The hard part is not connecting them. The hard part is **replacing one when you cannot read the part number, or selecting one when the machine manual only says "ISO 16028, 1/2"."**
+
+Two couplings can share the same body finish, nominal size, and rear thread while using completely different plug profiles, locking grooves, valve travel, and pressure classes. This guide covers the four interface families you will actually meet in the field — ISO 7241-1 Series A, ISO 7241-1 Series B, ISO 16028 flat-face, and ISO 5675 agricultural — with interchange references, a measurement procedure, a replacement qualification checklist, and the failure modes that make cross-referenced parts fail in service.
+
+> ⚠️ **Read this first.** The cross-reference tables below are identification leads, not certification. They tell you which brand families typically follow which standard; they do not guarantee that any two part numbers are interchangeable in every size, thread, or pressure class. Before buying or installing, confirm the exact male and female part numbers against current manufacturer drawings and operating data.
+
+## 1. What Makes Hydraulic Quick Couplings Interchangeable?
+
+True interchangeability exists only when the replacement satisfies **both** the mechanical interface and the application duty. A coupling that mates perfectly but cannot handle the circuit pressure is not interchangeable — it is a leak waiting to happen.
+
+| Verification layer | What must match | Why it matters |
+|:--|:--|:--|
+| Interface family | ISO standard or verified manufacturer profile | Determines whether the two halves can mate at all |
+| Mating geometry | Plug nose, sealing diameter, locking groove, socket geometry | Controls engagement, retention, and sealing |
+| Nominal size | Size within the same interface family | A 1/2" Series A plug is not a 1/2" Series B or ISO 16028 plug |
+| End connection | Thread standard, size, sealing method | Controls connection to the hose, tube, or equipment port |
+| Valve arrangement | Poppet, ball-seat, flat-face, or pressure-relieving option | Affects opening force, spill, air inclusion, pressure drop |
+| Operating limits | Working/peak pressure, flow, temperature, impulse duty | Determines whether the part is safe in service |
+| Materials and seals | Body material, plating, seal compound | Controls fluid and environmental compatibility |
+
+A brand cross-reference narrows the search; it never replaces these checks. Even within one named series, the male and female halves come in several sizes, threads, valve options, materials, and pressure ratings.
+
+## 2. ISO 7241-1 Series A — The General-Purpose Workhorse
+
+**ISO 7241-1 Series A** is the most common hydraulic quick-coupling interface on industrial equipment, machine tools, mobile hydraulics, and agricultural machinery. Typical construction: sleeve-operated ball-lock socket with self-sealing poppet valves.
+
+**Series A interchange reference leads** (verify size and rear connection before use):
+
+| Manufacturer | Series | Typical applications |
+|:--|:--|:--|
+| Parker | 6600 Series (incl. 6601/6602) | Industrial & mobile, 1/8"–2" |
+| Faster | Series A (ANV/ASV) | General purpose |
+| Stucchi | IRB Series | Industrial, A-profile |
+| Eaton (Aeroquip) | FD89-series equivalents | Mobile & industrial |
+| Generic Chinese factory "A-type" | ISO-A | Widely produced; verify profile |
+
+**Typical specs (Series A, 1/2")**: working pressure ~3,000 psi (207 bar), flow-dependent pressure drop per valve arrangement, ball-lock sleeve retention, poppet valves. Always confirm against the maker's data sheet.
+
+## 3. ISO 7241-1 Series B — Same Standard Family, Different Profile
+
+**ISO 7241-1 Series B** is also a general-purpose hydraulic interface, but its mating profile differs from Series A. **Series A and Series B do not connect — they are not substitutes.** This is the single most common interchange mistake in the field.
+
+| Manufacturer | Series | Note |
+|:--|:--|:--|
+| Stucchi | IRB Series (B-profile versions) | Verify profile, do not mix with A |
+| DNP | HNV Series | Example: HNV-04-04-N-NPT (male) / HNV-04-04-C-NPT (female) |
+| Faster | Series B (BNV/BSV) | B-profile |
+| Generic Chinese factory "B-type" | ISO-B | Widely produced; verify profile |
+
+If the old coupling still has readable markings, use them. If the marking is incomplete or worn, photograph both halves and measure the plug profile before choosing a replacement series.
+
+## 4. ISO 16028 Flat-Face — The Low-Spill Standard for Mobile Equipment
+
+**ISO 16028** flat-face couplings use flush valve faces that wipe clean instead of projecting poppets. The geometry reduces fluid loss and air inclusion during connection and disconnection — the reason they dominate skid-steer loaders, excavator attachments, and other mobile circuits where cross-contamination and spill matter.
+
+| Manufacturer | Series | Typical use |
+|:--|:--|:--|
+| Eaton (Aeroquip) | FD89 | Skid steer, excavator attachments; e.g. FD89-1002-08-08 (male) / FD89-1001-08-08 (female) |
+| Faster | FF / NV series flat-face | Mobile & agriculture |
+| Stucchi | Flat-face ranges (e.g. DNP FF-compatible) | Construction, forestry |
+| DNP | PLT4 (FF-HPG) | Example: FF-HPG-08-08N-NPT / FF-HPG-08-08C-NPT |
+
+A flat face alone does not prove size or pressure class. Equipment brand is not enough either: confirm machine model, attachment circuit, nominal size, pressure class, and both mating halves.
+
+## 5. ISO 5675 — Agricultural Couplings for Tractor Implements
+
+**ISO 5675** covers couplings commonly used between tractors and agricultural implements. Variations include ball-seat, poppet, and push-pull arrangements, plus breakaway brackets that require specific mounting.
+
+| Manufacturer | Series | Note |
+|:--|:--|:--|
+| Faster | NV/NS Series | Example: NS 12 NPT M (male) / NS 12 NPT F (female) |
+| Tomco | PC Series | Confirm by nominal size and thread |
+| Parker | Agricultural ranges | Tractor-side mounting variants |
+
+Agricultural couplings are often installed in push-pull breakaway brackets. A replacement must be checked for mating geometry **and** sleeve movement, mounting style, and the equipment maker's disconnect function — not just the thread.
+
+## 6. Coupler Size Chart: Nominal Size vs. Actual Profile
+
+Nominal sizes describe the size *within a family* — they are not the outside diameter of the plug or socket. A 1/2" ISO 7241 Series A plug, a 1/2" Series B plug, a 1/2" ISO 16028 plug, and a 1/2" ISO 5675 plug are four different profiles.
+
+| What to measure / record | What to capture | Common mistake avoided |
+|:--|:--|:--|
+| Plug nose | Nose diameter, nose length, valve face | Confusing similar-looking standards |
+| Locking groove | Diameter, width, position from nose | A plug that enters but cannot lock |
+| Socket | Sleeve diameter, opening diameter, locking mechanism | Matching only the male half |
+| Rear connection | BSPP, BSPT, NPT, metric; size; sealing method | Assuming thread size identifies the interface |
+| Markings | Manufacturer, series, part number, size, rating | Losing the strongest cross-reference evidence |
+
+Never scale dimensions from a browser image. Use current dimensional drawings.
+
+## 7. Replacement Qualification: The 8-Step Field Process
+
+1. **Make the system safe.** Isolate and depressurize per the equipment manufacturer's stored-energy procedure.
+2. **Record both halves.** Photograph plug, socket, valve faces, sleeve, markings, rear connections.
+3. **Identify the likely family.** Use the standard profiles and cross-reference leads above.
+4. **Verify dimensions.** Compare measured features with current dimensional drawings for the exact series and size.
+5. **Verify the end connection.** Confirm thread form, size, gender, and sealing method independently of the coupling interface.
+6. **Verify operating duty.** Record working and peak pressure, flow, pressure drop, fluid, temperature, impulse frequency, connection cycles.
+7. **Verify special conditions.** Residual pressure, vibration, side load, corrosion, contamination, breakaway requirements.
+8. **Approve the exact pair.** Record the proposed male and female part numbers; confirm their current technical data meet the application.
+
+## 8. Why Cross-Referenced Couplings Fail in Service
+
+| Symptom | Likely cause | Action |
+|:--|:--|:--|
+| Plug enters but will not lock | Wrong groove position/profile, or trapped pressure | Stop forcing; depressurize; compare dimensions |
+| Coupling locks but leaks | Wrong seal geometry, damaged valve seat, incomplete engagement | Isolate circuit; inspect the matched pair |
+| Difficult connection | Residual pressure, valve-force difference, contamination | Follow equipment procedure; consider connect-under-pressure design |
+| Excessive pressure drop | Undersized bore or different valve arrangement | Compare flow requirement with the product pressure-drop curve |
+| Unexpected disconnection | Incorrect locking engagement, damaged sleeve, unsuitable mounting | Remove from service until retention is verified |
+
+> ⚠️ Never inspect a suspected high-pressure hydraulic leak with bare hands. Fluid injection injuries require immediate medical attention.
+
+## 10. How to Select a Hydraulic Quick Coupling: 5-Step Process
+
+Selection is the mirror image of replacement: instead of matching an existing part, you specify a new one from scratch. Work through these five steps and you will have enough data to buy, regardless of brand.
+
+**Step 1 — Define the duty (S.T.A.M.P.).** Capture Size (nominal size and hose/port size), Temperature range, Application (machine type and function), Media (hydraulic fluid, additives, water), and Pressure (working + peak + surge). Most selection failures trace back to missing one of these five.
+
+**Step 2 — Choose the interface family.** General industrial and mobile circuits with standard tools → ISO 7241-1 Series A. European-style general purpose → Series B (never mixed with A). Mobile equipment with spill/contamination concerns (skid steer, excavator attachments) → ISO 16028 flat-face. Tractor-to-implement → ISO 5675. High-flow or connect-under-pressure duty → flat-face or special CUP designs.
+
+**Step 3 — Size for flow, not just for the hose.** Nominal size should be checked against required flow and acceptable pressure drop. A coupling that matches the hose diameter but is undersized internally will cost you heat and power for the life of the machine. Use the manufacturer's pressure-drop curves; if the circuit runs continuous duty at high flow, go one size up and re-check.
+
+**Step 4 — Specify the end connections.** The coupling's rear connections must match the hose fittings: NPT (tapered pipe, US), BSPP (parallel pipe, metric-standard world), BSPT (tapered BSP), JIC (37° flare, US mobile), or ORFS (O-ring face seal, high-pressure mobile). Get the thread size right on both ends — the interface standard does not dictate the thread.
+
+**Step 5 — Confirm valve arrangement and special features.** Poppet (general), ball-seat (agricultural), flat-face (low spill), pressure-relieving/connect-under-pressure (residual pressure circuits), and options like dust caps, breakaway brackets, or lockable sleeves. Then record the approved part numbers for both halves.
+
+**Thread standards at a glance** (rear connection, not coupling interface):
+
+| Thread | Type | Where it dominates | Seal method |
+|:--|:--|:--|:--|
+| NPT / NPTF | Tapered pipe | US, Canada | Thread sealant / interference |
+| BSPP (G) | Parallel pipe | Europe, Asia | Bonded washer or O-ring |
+| BSPT (R) | Tapered pipe | Commonwealth, Asia | Thread sealant |
+| JIC (37°) | Flare | US mobile | Metal-to-metal 37° flare |
+| ORFS | Straight thread + O-ring | High-pressure mobile | Face O-ring |
+| Metric (M) | Straight thread | European machinery | O-ring or washer |
+
+## 11. Maintenance: The Three Things That Kill Couplings
+
+**Contamination** — the #1 killer. Dirt on a poppet or flat-face seal causes internal leakage long before you see external drips. Cap or plug every disconnected half; wipe flat faces before every connection.
+
+**Seal wear** — O-rings and seal faces are consumables. A coupling that connects easily but weeps under pressure usually needs seals, not replacement. Keep the seal kit number with the part number.
+
+**Trapped pressure** — connecting under residual pressure forces the sleeve, damages the locking groove, and makes "stuck" couplings. Depressurize the circuit, or specify a connect-under-pressure design if the machine routinely connects hot.
+
+## 12. What to Send When Asking for an Interchange Review
+
+- Existing manufacturer, series, and full part number, if readable
+- Clear front and side photos of both male and female halves
+- Nominal size and measured plug, groove, sleeve, and overall dimensions
+- Rear thread or hose connection, including sealing method
+- Equipment make, model, and function of the hydraulic circuit
+- Working and peak pressure, required flow, acceptable pressure drop
+- Fluid, temperature range, seal requirement, environment
+- Whether the line retains residual pressure during connection
+
+## FAQ
+
+**Does the same ISO family guarantee interchangeability?**
+No. Same interface family and nominal size are the starting requirements; final approval still needs exact dimensions, end connection, pressure rating, valve option, material, and seal specification.
+
+**Can ISO 7241-1 Series A connect to Series B?**
+No. Series A and Series B use different mating profiles and must not be treated as substitutes.
+
+**Can a rear thread identify the coupling standard?**
+No. The thread connects the coupling to the hose or equipment; it does not define the male-to-female quick-coupling interface.
+
+**Can an ISO 16028 coupling replace any flat-face coupling?**
+No. A flat appearance alone does not establish conformity, nominal size, pressure class, or dimensional compatibility.
+
+**What is the most common interchange mistake?**
+Mixing ISO 7241-1 Series A and Series B because the thread or body diameter looks similar.
+
+## Ready to Confirm a Replacement?
+
+Send the existing part number (or photos of both halves), dimensions, and operating requirements. We'll review the interface family, nominal size, end connection, valve arrangement, and duty data — and confirm the exact matched pair before you buy.
+
+---
+
+*相关指南：Hydraulic Quick Coupling Types & Selection Guide ｜ Quick Connect and Disconnect Couplings: Operation and Safety Guide*

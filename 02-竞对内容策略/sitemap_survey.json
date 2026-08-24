@@ -1,0 +1,303 @@
+{
+ "https://www.sinopulse.cn": {
+  "src": "https://www.sinopulse.cn/sitemap.xml",
+  "total": 19951,
+  "cats": {
+   "blog": 36,
+   "other": 19114,
+   "product": 17,
+   "trust": 117,
+   "tag": 667
+  },
+  "samples": {
+   "blog": [
+    "https://www.sinopulse.cn/blog/",
+    "https://www.sinopulse.cn/ar/blog/",
+    "https://www.sinopulse.cn/be/blog/"
+   ],
+   "other": [
+    "https://www.sinopulse.cn/sinopulse-to-participate-in-expomin-2023-mining-exhibition-in-santiago-chile/",
+    "https://www.sinopulse.cn/ar/sinopulse-تشارك-في-معرض-التعدين-expomin-2023-في-سانتياغو/",
+    "https://www.sinopulse.cn/be/sinopulse-прыме-ўдзел-у-горназдабыўной-выстав/"
+   ],
+   "product": [
+    "https://www.sinopulse.cn/what-are-the-materials-and-production-processes-of-hydraulic-hoses/",
+    "https://www.sinopulse.cn/fr/quels-sont-les-materiaux-et-les-processus-de-production-des-tuyaux-hydrauliques/",
+    "https://www.sinopulse.cn/category/product/"
+   ],
+   "trust": [
+    "https://www.sinopulse.cn/about-us/",
+    "https://www.sinopulse.cn/contact-us/",
+    "https://www.sinopulse.cn/es/contacte-con-nosotros/"
+   ],
+   "tag": [
+    "https://www.sinopulse.cn/tag/2sc-hose/",
+    "https://www.sinopulse.cn/it/tag/tubo-flessibile-2sc/",
+    "https://www.sinopulse.cn/tag/2sn-hose-pressure-rating/"
+   ]
+  }
+ },
+ "https://www.cosmichydraulic.com": {
+  "src": "https://www.cosmichydraulic.com/sitemap.xml",
+  "total": 97,
+  "cats": {
+   "other": 15,
+   "trust": 2,
+   "product": 74,
+   "blog": 6
+  },
+  "samples": {
+   "other": [
+    "https://cosmichydraulic.com/en/",
+    "https://cosmichydraulic.com/en/blogs",
+    "https://cosmichydraulic.com/en/applications"
+   ],
+   "trust": [
+    "https://cosmichydraulic.com/en/about",
+    "https://cosmichydraulic.com/en/contact"
+   ],
+   "product": [
+    "https://cosmichydraulic.com/en/products/bobcat-replacement-quick-couplers",
+    "https://cosmichydraulic.com/en/products/high-pressure-ball-valve",
+    "https://cosmichydraulic.com/en/products/high-pressure-hydraulic-couplers"
+   ],
+   "blog": [
+    "https://cosmichydraulic.com/en/blog/how-to-identify-hydraulic-quick-couplings",
+    "https://cosmichydraulic.com/en/blog/hydraulic-coupling-interchange-guide",
+    "https://cosmichydraulic.com/en/blog/quick-connect-and-disconnect-couplings"
+   ]
+  }
+ },
+ "https://www.hlfluid.com": {
+  "src": "https://www.hlfluid.com/sitemap.xml",
+  "total": 681,
+  "cats": {
+   "other": 449,
+   "product": 25,
+   "blog": 203,
+   "trust": 4
+  },
+  "samples": {
+   "other": [
+    "https://www.hlfluid.com/",
+    "https://www.hlfluid.com/fb-threaded-hydraulic-quick-couplings/",
+    "https://www.hlfluid.com/rk-threaded-hydraulic-quick-couplings/"
+   ],
+   "product": [
+    "https://www.hlfluid.com/s1-poppet-valve-type-hydraulic-quick-couplings-product/",
+    "https://www.hlfluid.com/cnv-push-and-pull-type-hydraulic-quick-couplings-product/",
+    "https://www.hlfluid.com/s2-poppet-valve-type-hydraulic-quick-couplings-product/"
+   ],
+   "blog": [
+    "https://www.hlfluid.com/news/",
+    "https://www.hlfluid.com/news/2/",
+    "https://www.hlfluid.com/news/3/"
+   ],
+   "trust": [
+    "https://www.hlfluid.com/company-news/",
+    "https://www.hlfluid.com/about-us/",
+    "https://www.hlfluid.com/contact-us/"
+   ]
+  }
+ },
+ "https://www.wayfonghydraulic.com": {
+  "src": "https://www.wayfonghydraulic.com/sitemap.xml",
+  "total": 267,
+  "cats": {
+   "other": 229,
+   "trust": 4,
+   "product": 1,
+   "blog": 33
+  },
+  "samples": {
+   "other": [
+    "https://www.wayfonghydraulic.com/",
+    "https://www.wayfonghydraulic.com/news.html",
+    "https://www.wayfonghydraulic.com/download.html"
+   ],
+   "trust": [
+    "https://www.wayfonghydraulic.com/about.html",
+    "https://www.wayfonghydraulic.com/contact.html",
+    "https://www.wayfonghydraulic.com/about/why-us.html"
+   ],
+   "product": [
+    "https://www.wayfonghydraulic.com/products.html"
+   ],
+   "blog": [
+    "https://www.wayfonghydraulic.com/news/company-news",
+    "https://www.wayfonghydraulic.com/news/industry-news",
+    "https://www.wayfonghydraulic.com/news/how-can-hydraulic-hose-fitting-innovation-improve-modern-hydraulic-systems.html"
+   ]
+  }
+ },
+ "https://www.ehhydraulics.com": {
+  "src": "https://www.ehhydraulics.com/sitemap.xml",
+  "total": 481,
+  "cats": {
+   "other": 194,
+   "product": 202,
+   "trust": 5,
+   "blog": 80
+  },
+  "samples": {
+   "other": [
+    "https://www.ehhydraulics.com/",
+    "https://www.ehhydraulics.com/comm01/Designing.htm",
+    "https://www.ehhydraulics.com/comm03/Assembly.htm"
+   ],
+   "product": [
+    "https://www.ehhydraulics.com/comm02/Production.htm",
+    "https://www.ehhydraulics.com/products2146008/Flat-Face-ISO-16028-Quick-Couplers.htm",
+    "https://www.ehhydraulics.com/products2149787/CAT-Replacement-Couplers.htm"
+   ],
+   "trust": [
+    "https://www.ehhydraulics.com/comm04/QualityControl.htm",
+    "https://www.ehhydraulics.com/comm39/OEM-Service.htm",
+    "https://www.ehhydraulics.com/oid1756265/OEM-Hydraulic-Quick-Couplers-Factory-Landing-Page.htm"
+   ],
+   "blog": [
+    "https://www.ehhydraulics.com/blog/Hydraulic-Quick-Coupling-Applications_g1558",
+    "https://www.ehhydraulics.com/blog/Hydraulic-Quick-Couplers_g1289",
+    "https://www.ehhydraulics.com/blog/Hydraulic-Quick-Coupler-Caps-for-Contamination-Control-Zero-Spill_b30799"
+   ]
+  }
+ },
+ "https://summit-hydraulics.com": {
+  "src": "https://summit-hydraulics.com/sitemap.xml",
+  "total": 3662,
+  "cats": {
+   "blog": 2,
+   "other": 336,
+   "product": 3300,
+   "trust": 22,
+   "tag": 2
+  },
+  "samples": {
+   "blog": [
+    "https://summit-hydraulics.com/blog/",
+    "https://summit-hydraulics.com/es/blog/"
+   ],
+   "other": [
+    "https://summit-hydraulics.com/combating-hydraulic-leak-down-ensuring-safety-and-efficiency-with-summit-hydraulics-double-piloted-check-valves/",
+    "https://summit-hydraulics.com/es/combatir-las-fugas-hidraulicas-garantizando-la-seguridad-y-la-eficacia-con-las-valvulas-antirretorno-de-doble-piloto-de-summit-hydraulics/",
+    "https://summit-hydraulics.com/the-benefit-of-flat-face-iso-16028-quick-couplers-over-agricultural-pioneer-iso-5675-couplers/"
+   ],
+   "product": [
+    "https://summit-hydraulics.com/summit-hydraulics-elevating-summer-productivity-with-innovative-hydraulic-solutions/",
+    "https://summit-hydraulics.com/es/summit-hydraulics-elevating-summer-productivity-with-innovative-hydraulic-solutions/",
+    "https://summit-hydraulics.com/new-products/"
+   ],
+   "trust": [
+    "https://summit-hydraulics.com/f-a-q/faq/faq-switches/",
+    "https://summit-hydraulics.com/es/f-a-q/faq/faq-interruptores/",
+    "https://summit-hydraulics.com/f-a-q/faq/solenoid-coils/"
+   ],
+   "tag": [
+    "https://summit-hydraulics.com/tag/coupler/",
+    "https://summit-hydraulics.com/tag/high-pressure/"
+   ]
+  }
+ },
+ "https://www.quickdisconnectcouplings.com": {
+  "src": null,
+  "total": 0,
+  "cats": {},
+  "samples": {}
+ },
+ "https://www.fastercouplings.com": {
+  "src": "https://www.fastercouplings.com/sitemap.xml",
+  "total": 1359,
+  "cats": {
+   "other": 1134,
+   "blog": 95,
+   "trust": 3,
+   "product": 127
+  },
+  "samples": {
+   "other": [
+    "https://www.fastercouplings.com/",
+    "https://www.fastercouplings.com/credits",
+    "https://www.fastercouplings.com/history"
+   ],
+   "blog": [
+    "https://www.fastercouplings.com/news/aton-and-faster-present-rfid-symphony-174",
+    "https://www.fastercouplings.com/news/faster-abc-wins-systems-components-trophy-197",
+    "https://www.fastercouplings.com/news/we-are-proud-to-present-faster-academy-167"
+   ],
+   "trust": [
+    "https://www.fastercouplings.com/quality-and-environment",
+    "https://www.fastercouplings.com/contact-us",
+    "https://www.fastercouplings.com/about-us"
+   ],
+   "product": [
+    "https://www.fastercouplings.com/technology/products-instructions-and-warnings",
+    "https://www.fastercouplings.com/products",
+    "https://www.fastercouplings.com/technology/product-definition-form"
+   ]
+  }
+ },
+ "https://www.stucchiusa.com": {
+  "src": "https://www.stucchiusa.com/sitemap.xml",
+  "total": 472,
+  "cats": {
+   "blog": 362,
+   "other": 48,
+   "trust": 3,
+   "product": 59
+  },
+  "samples": {
+   "blog": [
+    "https://www.stucchiusa.com/blog/",
+    "https://www.stucchiusa.com/blog/looking-for-specialty-hydraulic-quick-coupler-adapters/",
+    "https://www.stucchiusa.com/blog/before-you-replace-a-hydraulic-coupler-review-the-application/"
+   ],
+   "other": [
+    "https://www.stucchiusa.com/",
+    "https://www.stucchiusa.com/hydraulic-solutions/hydraulic-interchangeability-for-mixed-fleets/",
+    "https://www.stucchiusa.com/hydraulic-solutions/zero-spill-hydraulic-connections/"
+   ],
+   "trust": [
+    "https://www.stucchiusa.com/oem-and-engineering-solutions/",
+    "https://www.stucchiusa.com/contact-us/",
+    "https://www.stucchiusa.com/company-policies/"
+   ],
+   "product": [
+    "https://www.stucchiusa.com/products/",
+    "https://www.stucchiusa.com/find-your-product/",
+    "https://www.stucchiusa.com/products/"
+   ]
+  }
+ },
+ "https://www.zycouplings.com": {
+  "src": "https://www.zycouplings.com/sitemap.xml",
+  "total": 204,
+  "cats": {
+   "other": 26,
+   "trust": 4,
+   "product": 162,
+   "blog": 12
+  },
+  "samples": {
+   "other": [
+    "https://www.zycouplings.com/zh/",
+    "https://www.zycouplings.com/zh/blogs",
+    "https://www.zycouplings.com/zh/applications"
+   ],
+   "trust": [
+    "https://www.zycouplings.com/zh/about",
+    "https://www.zycouplings.com/zh/contact",
+    "https://www.zycouplings.com/en/about"
+   ],
+   "product": [
+    "https://www.zycouplings.com/zh/products/iso-5675-quick-couplers",
+    "https://www.zycouplings.com/zh/products/iso-a-quick-couplers",
+    "https://www.zycouplings.com/zh/products/iso-b-quick-couplers"
+   ],
+   "blog": [
+    "https://www.zycouplings.com/zh/blog/shenme-shi-qi-dong-kuai-su-jie-tou",
+    "https://www.zycouplings.com/zh/blog/ru-he-shi-bie-ye-ya-kuai-su-jie-tou",
+    "https://www.zycouplings.com/zh/blog/kuai-su-shi-fang-jie-tou-lei-xing"
+   ]
+  }
+ }
+}

@@ -1,0 +1,99 @@
+Hydraulic Quick Coupling Interchange Guide: Replacement & Cross Reference | COSMIC Hydraulic Co. Ltd
+Hydraulic Quick Coupling Interchange Guide: Replacement & Cross Reference
+Hydraulic quick couplings let operators connect and disconnect hydraulic hoses, machines and attachments without dismantling a threaded joint each time. When a valved plug and socket are fully connected, their internal valves open to establish the flow path. When separated, the valves close to limit fluid loss and air entry.
+Finding a replacement is more demanding than finding a part that looks similar. Two couplings may share the same body finish, nominal size or rear thread while using different plug profiles, locking grooves, valve travel or pressure classes. This guide combines interface standards, brand-series cross references, part-number examples and an engineering verification process for replacement work.
+Important: the cross-reference tables below are identification leads derived from the supplied interchange source document. They do not certify every current product revision, size, thread or pressure option as interchangeable. Before purchase or installation, confirm the exact male and female part numbers against current manufacturer drawings and operating data.
+1. What Makes Hydraulic Quick Couplings Interchangeable?
+True interchangeability exists only when the replacement coupling satisfies both the mechanical interface and the application duty .
+Verification layer What must match Why it matters
+Interface family ISO standard or verified manufacturer profile Determines whether the two halves can mate
+Mating geometry Plug nose, sealing diameter, locking groove and socket geometry Controls engagement, retention and sealing
+Nominal size Size within the same interface family A 1/2-inch Series A is not a 1/2-inch Series B or ISO 16028
+End connection Thread standard, thread size and sealing method Controls connection to the hose, tube or equipment port
+Valve arrangement Poppet, ball-seat, flat-face or pressure-relieving option Affects opening force, spill, air inclusion and pressure drop
+Operating limits Working and peak pressure, flow, temperature and impulse duty Determines whether the part is suitable and safe in service
+Materials and seals Body material, plating and seal compound Controls fluid and environmental compatibility
+A brand cross-reference can narrow the search, but it cannot replace these checks. Even within one named series, the male and female halves may be offered in several nominal sizes, threads, valve options, materials or pressure ratings.
+2. ISO 7241-1 Series A Interchange Reference
+ISO 7241-1 Series A defines a widely used general-purpose hydraulic quick-coupling interface. It is commonly found on industrial equipment, machine tools, mobile hydraulics and agricultural machinery. Typical versions use a sleeve-operated ball-lock socket and self-sealing valves.
+ISO 7241-1 Series A plug and socket. Confirm the exact size and rear connection before interchange.
+Manufacturer Series Male reference Female reference
+Use these references to identify a likely Series A family, then verify which nominal size and end connection each code represents. Do not mix Series A with Series B merely because the thread or body diameter appears similar.
+3. ISO 7241-1 Series B Interchange Reference
+ISO 7241-1 Series B is another general-purpose hydraulic interface used across industrial and mobile equipment. Series B uses a different mating profile from Series A, so the two families do not connect and should not be treated as substitutes.
+Manufacturer Series Male reference Female reference
+Stucchi IRB Series M IRB14 NPT F IRB14 NPT
+DNP HNV Series HNV-04-04-N-NPT HNV-04-04-C-NPT
+The part-number examples are most useful when an old coupling still has readable markings. If the marking is incomplete, photograph both halves and measure the plug profile before choosing a replacement series.
+4. ISO 16028 Flat-Face Interchange Reference
+ISO 16028 flat-face couplings use flush valve faces that are easier to wipe clean than conventional projecting poppets. Their geometry is intended to reduce fluid loss and air inclusion during connection and disconnection. These couplings are widely used on skid-steer loaders, excavator attachments and other mobile hydraulic equipment.
+ISO 16028 flat-face coupling. A flat face alone does not prove the size or pressure class.
+Manufacturer Series Male reference Female reference
+Eaton Aeroquip FD89 FD89-1002-08-08 FD89-1001-08-08
+DNP PLT4 FF-HPG-08-08N-NPT FF-HPG-08-08C-NPT
+Some equipment brands use ISO 16028-type connections on particular models, but equipment brand alone is not enough to select the coupling. Confirm the machine model, attachment circuit, nominal size, pressure class and both mating halves.
+5. ISO 5675 Agricultural Interchange Reference
+ISO 5675 couplings are commonly used between tractors and agricultural implements. Product variations may include ball-seat, poppet and push-pull arrangements. The ISO family, valve option and tractor-side mounting arrangement all need to be considered when replacing a coupling.
+Manufacturer Series Male reference Female reference
+Faster NV/NS Series NS 12 NPT M NS 12 NPT F
+Tomco PC Series Confirm by nominal size and thread Confirm by nominal size and thread
+Agricultural couplings may be installed in push-pull breakaway brackets. A replacement must therefore be checked not only for mating geometry, but also for sleeve movement, mounting style and the equipment manufacturer's disconnect function.
+6. Coupler Size Chart and Profile Identification
+Nominal sizes describe the intended size within a coupling family, not the actual outside diameter of the plug or socket. A 1/2-inch ISO 7241 Series A plug, a 1/2-inch Series B plug, a 1/2-inch ISO 16028 plug and a 1/2-inch ISO 5675 plug have different profiles.
+Male-profile comparison for initial identification. Do not scale dimensions from a browser image; use current dimensional drawings.
+Measurement or record What to capture Common mistake avoided
+Plug nose Nose diameter, nose length and valve face Confusing similar-looking standards
+Locking groove Diameter, width and position from the nose A plug that enters but cannot lock correctly
+Socket Sleeve diameter, opening diameter and locking mechanism Matching only the male half
+Rear connection BSPP, BSPT, NPT, metric or other thread; size and sealing method Assuming thread size identifies the interface
+Markings Manufacturer, series, part number, size and rating Losing the strongest cross-reference evidence
+For a detailed field procedure, see How to Identify Hydraulic Quick Couplings .
+7. Professional Replacement Qualification Process
+Make the system safe. Isolate and depressurize the circuit according to the equipment manufacturer's stored-energy procedure.
+Record both halves. Photograph the plug, socket, valve faces, sleeve, markings and rear connections.
+Identify the likely family. Use the standard profile and source-document cross references to narrow the candidates.
+Verify dimensions. Compare measured features with current dimensional drawings for the exact proposed series and nominal size.
+Verify the end connection. Confirm thread form, size, gender and sealing method independently from the coupling interface.
+Verify operating duty. Record working and peak pressure, required flow, pressure drop, fluid, temperature, impulse frequency and connection cycles.
+Verify special conditions. Check residual pressure, vibration, side load, corrosion exposure, contamination and breakaway requirements.
+Approve the exact pair. Record the proposed male and female part numbers and confirm that their current technical data meet the application.
+8. Common Reasons a Cross-Referenced Coupling Fails
+Plug enters but will not lock Wrong groove position, profile or trapped pressure Stop forcing the connection; depressurize and compare dimensions
+Coupling locks but leaks Incorrect seal geometry, damaged valve seat or incomplete engagement Isolate the circuit and inspect the matched pair
+Difficult connection Residual pressure, valve-force difference or contamination Follow the equipment procedure and confirm whether a connect-under-pressure design is required
+Excessive pressure drop Undersized bore or different valve arrangement Compare flow requirement with the product pressure-drop curve
+Unexpected disconnection Incorrect locking engagement, damaged sleeve or unsuitable mounting Remove the circuit from service until the retention system is verified
+Never inspect a suspected high-pressure hydraulic leak with bare hands. Fluid injection injuries require immediate medical attention.
+9. Information to Send for an Interchange Review
+Existing manufacturer, series and full part number, if readable.
+Clear front and side photographs of both the male and female halves.
+Nominal size and measured plug, groove, sleeve and overall dimensions.
+Rear thread or hose connection, including the sealing method.
+Equipment make, model and function of the hydraulic circuit.
+Working and peak pressure, required flow and acceptable pressure drop.
+Fluid, temperature range, seal requirement and environment.
+Whether the line retains residual pressure during connection.
+COSMIC Hydraulic can review replacement requests for ISO 7241-1 Series A, ISO 7241-1 Series B, ISO 16028 flat-face and ISO 5675 agricultural coupling families. A recommendation is based on the exact series, nominal size, end connection and application data supplied for the project.
+Material, plating, seal, thread, pressure and OEM options must be confirmed for the selected product. A general family name or brand-series reference is not approval for an exact replacement.
+Does the same ISO family guarantee interchangeability?
+The same stated ISO interface and nominal size are the starting requirements, but final approval still needs the exact dimensions, end connection, pressure rating, valve option, material and seal specification.
+Can ISO 7241-1 Series A connect to Series B?
+No. Series A and Series B use different mating profiles.
+Can a rear thread identify the coupling standard?
+No. The thread connects the coupling to the hose or equipment; it does not define the male-to-female quick-coupling interface.
+Can an ISO 16028 coupling replace any flat-face coupling?
+No. A flat appearance alone does not establish conformity, nominal size, pressure class or dimensional compatibility.
+Can COSMIC Hydraulic cross-reference a branded part?
+COSMIC Hydraulic can use the original part number and the application data as a starting point, then review the exact profile, dimensions and ratings before proposing an option.
+A useful hydraulic coupling cross reference combines four kinds of evidence: the interface standard, exact male and female part numbers, dimensional confirmation and application-duty verification. Brand-series tables make identification faster, but they should never be treated as a universal guarantee.
+For a reliable replacement, verify the coupling family, nominal size, plug and socket geometry, rear connection, valve arrangement, pressure, flow, fluid, temperature and seal material. Record the approved matched pair so the same evidence is available for future maintenance.
+Need Help Identifying a Replacement Coupling?
+Send the existing part number, photos of both halves, dimensions and operating requirements. COSMIC Hydraulic can review the information and help identify an appropriate replacement option.
+Quick Release Coupling Types: ISO Standards, Sizes and Selection Guide
+Compare hydraulic quick release coupling types, ISO standards, nominal sizes, interchange checks and a practical selection process.
+Quick Connect and Disconnect Couplings: Operation and Safety Guide
+Learn how hydraulic quick couplings work, how to connect and disconnect them safely, and how to solve leakage and residual-pressure problems.
+This site uses necessary cookies to operate securely. With your permission, we may also use analytics cookies to understand website usage and improve our services. Read our
+Choose which optional cookies COSMIC Hydraulic may use. Necessary cookies are always active because they support security and core website functions.
+These cookies protect forms, remember your privacy choice, and support essential website functions.
+With your permission, Google Analytics helps us understand which pages are useful and how visitors navigate the website. Analytics remains off unless you allow it.
