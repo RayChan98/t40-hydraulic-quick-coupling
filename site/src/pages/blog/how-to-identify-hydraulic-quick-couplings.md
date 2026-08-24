@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/BlogLayout.astro
 title: "How to Identify Hydraulic Quick Couplings: A Field Guide"
-category: "Maintenance"
-date: "2026-08-24"
+category: "Identification"
+date: "2026-08-25"
 readTime: "6"
 author: "Ray Chan"
-description: "Identify any hydraulic quick coupling in 5 steps: record the application, inspect both mating halves, measure critical features, check operating condition, confirm with a drawing."
+description: "Field guide to identifying hydraulic quick couplings: record the application, inspect mating halves, measure critical features, check operating conditions, confirm with a drawing."
 toc:
       - id: "why-identification-matters"
         label: "Why Identification Matters"

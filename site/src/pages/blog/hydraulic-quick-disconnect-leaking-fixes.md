@@ -2,10 +2,10 @@
 layout: ../../layouts/BlogLayout.astro
 title: "Hydraulic Quick Disconnect Leaking? Top 5 Causes & Fixes"
 category: "Maintenance"
-date: "2026-08-24"
+date: "2026-08-25"
 readTime: "7"
 author: "Ray Chan"
-description: "The top 5 causes of hydraulic quick disconnect leaks - contamination, seal wear, sleeve damage, wrong valve arrangement, trapped pressure - and the fixes that actually work."
+description: "The top five causes of leaking hydraulic quick disconnects — worn seals, contamination, trapped pressure, damaged seats, wrong thread — and how to fix each."
 toc:
       - id: "the-top-5-causes-of-a-leaking-quick-disconnect"
         label: "The Top 5 Causes of a Leaking Quick Disconnect"

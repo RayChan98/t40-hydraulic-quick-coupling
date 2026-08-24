@@ -6,18 +6,26 @@ SRC_DIR = r'D:\kravzik-work\t40-hydraulic-quick-coupling\04-范本自审'
 DST_DIR = r'D:\kravzik-work\t40-hydraulic-quick-coupling\site\src\pages\blog'
 
 ARTICLES = [
-    dict(src='范本01-ISO快接互换与选型指南.md', slug='iso-7241-vs-iso-16028-vs-iso-5675',
-         title='ISO 7241 vs ISO 16028 vs ISO 5675: Interchange & Selection Guide',
-         category='Selection Guide', date='2026-08-24', readTime='10',
-         desc='The full standard map: what ISO 7241 Series A/B, ISO 16028 flat-face and ISO 5675 agricultural couplings cover, which profiles interchange, how to size and select - plus the 8-step replacement qualification process.'),
-    dict(src='批量B1-如何识别液压快接.md', slug='how-to-identify-hydraulic-quick-couplings',
-         title='How to Identify Hydraulic Quick Couplings: A Field Guide',
-         category='Maintenance', date='2026-08-24', readTime='6',
-         desc='Identify any hydraulic quick coupling in 5 steps: record the application, inspect both mating halves, measure critical features, check operating condition, confirm with a drawing.'),
-    dict(src='批量B2-液压快接泄漏修复.md', slug='hydraulic-quick-disconnect-leaking-fixes',
-         title='Hydraulic Quick Disconnect Leaking? Top 5 Causes & Fixes',
-         category='Maintenance', date='2026-08-24', readTime='7',
-         desc='The top 5 causes of hydraulic quick disconnect leaks - contamination, seal wear, sleeve damage, wrong valve arrangement, trapped pressure - and the fixes that actually work.'),
+  dict(file='范本01-ISO快接互换与选型指南.md', slug='iso-7241-vs-iso-16028-vs-iso-5675',
+       title='ISO 7241 vs ISO 16028 vs ISO 5675: Interchange & Selection Guide', category='Selection Guides',
+       date='2026-08-25', readTime='10',
+       desc='ISO 7241 Series A/B, ISO 16028 flat-face and ISO 5675 agricultural quick couplings compared: interchange families, measurement, replacement qualification and selection.'),
+  dict(file='批量B1-如何识别液压快接.md', slug='how-to-identify-hydraulic-quick-couplings',
+       title='How to Identify Hydraulic Quick Couplings: A Field Guide', category='Identification',
+       date='2026-08-25', readTime='6',
+       desc='Field guide to identifying hydraulic quick couplings: record the application, inspect mating halves, measure critical features, check operating conditions, confirm with a drawing.'),
+  dict(file='批量B2-液压快接泄漏修复.md', slug='hydraulic-quick-disconnect-leaking-fixes',
+       title='Hydraulic Quick Disconnect Leaking? Top 5 Causes & Fixes', category='Maintenance',
+       date='2026-08-25', readTime='7',
+       desc='The top five causes of leaking hydraulic quick disconnects — worn seals, contamination, trapped pressure, damaged seats, wrong thread — and how to fix each.'),
+  dict(file='批量B3-ISO7241-AvsB对比.md', slug='iso-7241-series-a-vs-series-b',
+       title='ISO 7241 Series A vs Series B: What\'s the Difference?', category='Selection Guides',
+       date='2026-08-25', readTime='8',
+       desc='ISO 7241 Series A and Series B quick couplings compared: interchange families, 60-second identification, ordering mistakes and which profile to stock.'),
+  dict(file='批量B4-螺纹标准大全.md', slug='npt-vs-bspp-vs-bspt-vs-jic-vs-orfs',
+       title='Hydraulic Coupling Threads: NPT vs BSPP vs BSPT vs JIC vs ORFS', category='Selection Guides',
+       date='2026-08-25', readTime='8',
+       desc='The six thread families on hydraulic quick couplings: how each seals, how to identify them in 30 seconds, and an ordering checklist that prevents thread mismatches.'),
 ]
 
 def slugify(s):
@@ -38,7 +46,7 @@ def esc(s):
     return s.replace('"', "'")
 
 for a in ARTICLES:
-    src = os.path.join(SRC_DIR, a['src'])
+    src = os.path.join(SRC_DIR, a['file'])
     text = open(src, encoding='utf-8').read()
     lines = text.split('\n')
     lines = [l for l in lines if not l.startswith('# ')]
