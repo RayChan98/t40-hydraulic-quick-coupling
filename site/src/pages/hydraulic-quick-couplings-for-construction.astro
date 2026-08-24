@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [["Main standard", "ISO 16028 flat face (mobile equipment)"], ["Also common", "ISO 7241 Series A/B on older machines"], ["Key feature", "Connect-under-pressure (CUP) variants"], ["Dominant sizes", "1/2\" and 3/4\""], ["Safety", "Never inspect a leak by hand - fluid injection injuries"], ["Maintenance", "Caps, seal kits, face inspection"]];
+const features = ["Flat-face CUP focus", "Excavator & skid steer coverage", "Safety-first guidance", "Fleet standardization support"];
+const applications = ["Excavators", "Skid steer loaders", "Compact loaders", "Demolition tools", "Snow removal", "Material handlers"];
+const faqs = [{"q": "Should our fleet standardize on flat-face?", "a": "If operators hot-swap attachments (multi-tool skid steers, quick couplers on excavators), flat-face CUP is the safe, spill-free standard. Retrofit kits keep the change affordable."}];
+const trust = ["Flat-face CUP specialist", "Fleet retrofit support", "Safety guidance", "24h quote response"];
+---
+<Layout title="Hydraulic Quick Couplings for Construction - Flat Face & CUP | Hydraulic Quick Couplings" description="Construction hydraulic quick couplings: ISO 16028 flat-face with connect-under-pressure for excavators and skid steers. Safety and spill-free switching.">
+  <ProductPageTemplate
+    model="Hydraulic Quick Couplings for Construction"
+    series="Application"
+    category="Applications"
+    tagline="Excavators, skid steers and loaders switch attachments all day - flat-face CUP couplings keep that safe and spill-free."
+    description="Construction equipment changes attachments constantly, which is exactly what quick couplings are for. On these machines, flat-face ISO 16028 couplings dominate because operators connect under residual pressure and sites demand minimal spill. This page covers the standard choices for construction duty and the safety rules that apply."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={trust}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6"><h2 class="text-2xl font-extrabold text-navy-950">The One Safety Rule</h2><p class="mt-4 max-w-3xl text-sm leading-relaxed text-slate-600">Never check a suspected high-pressure leak with your hand. Fluid injection injuries are medical emergencies. Use a piece of cardboard, depressurize the circuit, and replace the weeping coupling.</p></div></section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

@@ -1,0 +1,112 @@
+---
+layout: ../../layouts/BlogLayout.astro
+title: "How to Identify Hydraulic Quick Couplings: A Field Guide"
+category: "Maintenance"
+date: "2026-08-24"
+readTime: "6"
+author: "Ray Chan"
+description: "Identify any hydraulic quick coupling in 5 steps: record the application, inspect both mating halves, measure critical features, check operating condition, confirm with a drawing."
+toc:
+      - id: "why-identification-matters"
+        label: "Why Identification Matters"
+      - id: "step-1-record-the-application"
+        label: "Step 1: Record the Application"
+      - id: "step-2-inspect-both-mating-halves"
+        label: "Step 2: Inspect Both Mating Halves"
+      - id: "step-3-measure-the-critical-features"
+        label: "Step 3: Measure the Critical Features"
+      - id: "step-4-check-the-operating-condition"
+        label: "Step 4: Check the Operating Condition"
+      - id: "step-5-confirm-with-a-drawing"
+        label: "Step 5: Confirm with a Drawing"
+      - id: "the-four-families-at-a-glance"
+        label: "The Four Families at a Glance"
+      - id: "faq"
+        label: "FAQ"
+---
+
+
+---
+
+A hydraulic quick coupling fails, the machine is down, and the part number is worn off. Or the fitting on the attachment does not match the one on the hose. Before you can order a replacement — or even ask someone who knows — you have to answer one question: **what coupling is this?**
+
+Identification is a measurement job, not a guessing job. Two couplings can look identical in a photo and be completely different interfaces. This guide gives you a field procedure that works without special tools, the five measurements that separate one standard from another, and the four families you are most likely to meet.
+
+> ⚠️ Identification is not approval. When you have a candidate part number, confirm dimensions and ratings against current manufacturer drawings before purchase or installation.
+
+## Why Identification Matters
+
+The cost of a wrong guess is downtime, at minimum. The wrong coupling can also fail under pressure — unexpected disconnection, leakage, or fluid injection injury. Getting the identification right means:
+
+- **The right mating pair** — the plug and socket are a matched set within one interface family.
+- **The right size** — nominal size must match inside the family; a 1/2" ISO 7241 Series A plug is not a 1/2" ISO 16028 plug.
+- **The right rear connection** — thread standard and size are independent of the coupling interface.
+- **The right duty** — pressure class, flow, and temperature must suit the circuit.
+
+## Step 1: Record the Application
+
+Write down the machine, model, function of the circuit, and where the coupling lives (e.g., "Bobcat S650 skid steer, auxiliary coupler, left side"). Equipment brand does not identify the coupling, but it narrows the family — skid-steer and excavator auxiliaries are usually ISO 16028 flat-face; tractor implements are usually ISO 5675; industrial machines are usually ISO 7241-1 Series A or B.
+
+## Step 2: Inspect Both Mating Halves
+
+Photograph the plug and socket separately: top view, side view, valve faces, sleeve, and any markings. Check the valve face shape — this is your fastest family clue:
+
+| Valve face | Likely family |
+|:--|:--|
+| Flush, flat face | ISO 16028 flat-face |
+| Projecting poppet (conical tip) | ISO 7241-1 Series A or B |
+| Ball-seat or short poppet | ISO 5675 agricultural |
+| Flat face with visible O-ring groove | Flat-face variant (verify ISO) |
+
+## Step 3: Measure the Critical Features
+
+You need five measurements (caliper accuracy is enough for identification):
+
+| Feature | What to measure | Why it matters |
+|:--|:--|:--|
+| Plug nose | Diameter and nose length | Separates families that look alike |
+| Valve face | Tip shape and travel | Poppet vs ball-seat vs flat |
+| Locking groove | Diameter, width, distance from nose | A plug that enters but cannot lock |
+| Socket sleeve | Opening diameter, sleeve travel | Retention and release behavior |
+| Rear connection | Thread type (NPT/BSPP/BSPT/JIC/ORFS), size, gender | Independent of interface — but needed to order |
+
+Write the numbers down. Photos distort scale; calipers do not.
+
+## Step 4: Check the Operating Condition
+
+Ask how the coupling behaved in service. A coupling that leaks under pressure, connects hard, or disconnects unexpectedly is telling you something — and the symptom often identifies the failure (see the failure table in our interchange guide). Note working pressure, flow, fluid, temperature, and whether the line holds residual pressure.
+
+## Step 5: Confirm with a Drawing
+
+With measurements in hand, compare against dimensional drawings of the candidate series — not against photos on a screen. If the plug enters the socket but the groove position is off by a millimeter, it will not lock. When in doubt, send the measurements and photos to a supplier for a formal interchange review.
+
+## The Four Families at a Glance
+
+| Family | Standard | Valve | Typical machines | Tell-tale |
+|:--|:--|:--|:--|:--|
+| Series A | ISO 7241-1 | Poppet, ball-lock sleeve | Industrial, mobile, ag | Projecting poppet, grooved sleeve |
+| Series B | ISO 7241-1 | Poppet | European general purpose | Different profile — **never mix with A** |
+| Flat-face | ISO 16028 | Flush valves | Skid steer, excavator attachments | Flush face, wipes clean |
+| Agricultural | ISO 5675 | Ball-seat / poppet | Tractor-to-implement | Push-pull, breakaway brackets |
+
+## FAQ
+
+**Can I identify a coupling from the thread alone?**
+No. The rear thread connects to the hose; it does not define the male-to-female interface. NPT 1/2" exists in Series A, Series B, and flat-face.
+
+**My plug fits the socket — is it interchangeable?**
+"Fits" is not "interchangeable." Verify the locking groove engages, the valves open fully, and the pressure class matches. A plug that enters but does not lock is a failed coupling waiting to happen.
+
+**The part number is stamped on the body — is that enough?**
+It is the strongest clue you can have. Record it exactly (including dashes and suffixes — FD89-1002-08-08 is not the same as FD89-1001-08-08), then confirm the series, size, and thread.
+
+**My machine is a Bobcat/Caterpillar — do I need their branded coupling?**
+Equipment brands often use standard interfaces (commonly ISO 16028 flat-face for auxiliaries). Identify the actual standard and size; an interchangeable standard part is usually available without the brand markup.
+
+**What if nothing matches?**
+
+Send us clear photos of both halves, your five measurements, the rear thread details, and the application duty. We'll identify the family and confirm a matched replacement pair.
+
+---
+
+*相关指南：ISO 7241 vs ISO 16028 vs ISO 5675: Hydraulic Quick Coupling Interchange & Selection Guide ｜ Hydraulic Quick Disconnect Leaking: Top 5 Causes & Fixes*

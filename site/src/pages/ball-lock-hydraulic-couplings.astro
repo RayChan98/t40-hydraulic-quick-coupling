@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [["Design", "Sleeve-operated hardened ball lock"], ["Sizes", "1/4\" to 1\" common; larger on request"], ["Pressure", "200-250 bar class (size and material dependent)"], ["Materials", "Carbon steel plated, stainless, brass"], ["Seals", "NBR standard; FKM/HNBR for high temp or bio-oils"], ["Rebuild", "O-ring and complete seal kits available"], ["Threads", "NPT, BSPP, BSPT, JIC, ORFS"], ["Applications", "Industrial, mobile, agricultural hydraulics"]];
+const features = ["One-handed sleeve connection", "Hardened balls for long cycle life", "Rebuildable - seal kits stocked", "Wide thread and material choice", "Compact envelope", "Consistent low pressure drop"];
+const applications = ["Machine tools", "Hydraulic power units", "Test benches", "Mobile equipment", "Agricultural implements"];
+const faqs = [{"q": "When do ball-lock couplings fail?", "a": "Three common causes: contamination in the sleeve/ball area, worn O-rings (internal weep), and connecting under residual pressure which forces the sleeve and damages the locking groove."}, {"q": "Can I rebuild instead of replace?", "a": "Usually yes. Replace the O-rings and, if scored, the ball set. Keep the seal kit number with the coupling."}];
+const trust = ["Rebuildable with stocked seal kits", "Hardened ball construction", "Custom threads & materials", "24h quote response"];
+---
+<Layout title="Ball Lock Hydraulic Couplings - Sleeve Quick Disconnect | Hydraulic Quick Couplings" description="Ball lock hydraulic quick couplings: sleeve-operated hardened ball lock, ISO 7241 profiles, 1/4&quot;-1&quot;, NPT/BSPP/JIC/ORFS. Rebuildable with seal kits.">
+  <ProductPageTemplate
+    model="Ball Lock Hydraulic Couplings"
+    series="Ball-Lock Series"
+    category="Quick-Disconnect Couplings"
+    tagline="The classic sleeve-operated ball-lock design - fast, dependable and rebuildable with seal kits."
+    description="Ball lock hydraulic couplings use hardened balls retained in a sleeve to lock the plug in the coupler. Pull the sleeve back, insert, release - connected. They are the most widely used quick-disconnect design in industry because they are fast, compact and cheap to rebuild. We supply ball-lock couplings in ISO 7241 Series A/B, agricultural and custom profiles."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={trust}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6"><h2 class="text-2xl font-extrabold text-navy-950">Keep Ball Lock Couplings Alive</h2><p class="mt-4 max-w-3xl text-sm leading-relaxed text-slate-600">Cap disconnected halves, wipe the nose and socket before each connection, and never force a connection under residual pressure. With those three habits, a ball-lock coupling outlives most machines. When it finally weeps, a seal kit restores it for a fraction of replacement cost.</p></div></section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

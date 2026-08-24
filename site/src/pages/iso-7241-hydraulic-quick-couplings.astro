@@ -1,0 +1,91 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [
+  ['Standard', 'ISO 7241-1 Series A / Series B (also ISO 7241-2 performance requirements)'],
+  ['Size range', '1/4" (DN6) to 2" (DN50), plus metric nominal sizes'],
+  ['Working pressure', 'Typically 200–250 bar (3,000–3,600 psi) for 1/2"; confirm against data sheet per size and material'],
+  ['Materials', 'Carbon steel (zinc or nickel plated), stainless steel 304/316, brass'],
+  ['Connection types', 'Male/female couplers and nipples (plug); NPT, BSPP, BSPT, JIC 37°, ORFS'],
+  ['Valve arrangement', 'Poppet (both halves, standard); ball-seat variants available'],
+  ['Temperature', '–20 °C to +100 °C typical (seal dependent); FKM seals for higher ranges'],
+  ['Locking', 'Sleeve-operated ball lock; steel balls with positive retainer'],
+  ['Applications', 'Machine tools, construction equipment, agricultural machinery, industrial hydraulics'],
+];
+const features = [
+  'ISO 7241-1 dimensional interchange — Series A or B certified profile',
+  'Sleeve-operated ball lock for one-handed connect/disconnect',
+  'Poppet valves on both halves minimize spill on disconnect',
+  'Replaceable O-ring seals and ball sets (seal kits available)',
+  'Zinc/nickel plating, stainless or brass for chemical compatibility',
+  'Wide thread choice: NPT, BSPP, BSPT, JIC, ORFS',
+];
+const applications = ['Machine tools', 'Construction', 'Agriculture', 'Mobile equipment', 'Industrial process lines', 'Hydraulic power units'];
+const faqs = [
+  { q: 'Series A or Series B — which do I need?', a: 'Series A is the global general-purpose standard (also called ISO-A). Series B is the European/commonwealth profile. They do not couple with each other. Check the existing coupling\'s sleeve profile and markings, or measure per the identification guide.' },
+  { q: 'Are ISO 7241 couplings interchangeable across brands?', a: 'Dimensional interchange follows ISO 7241-1, so Series A couplers from different manufacturers mate in most cases. Always verify with drawings before batch purchase — sealing, flow and pressure ratings vary by maker.' },
+  { q: 'What threads can I get?', a: 'NPT (US tapered), BSPP (parallel), BSPT (tapered), JIC 37° flare and ORFS. The coupling interface standard does not dictate the end thread — specify both.' },
+  { q: 'Do you supply seal kits?', a: 'Yes — O-ring and complete seal kits for each size and series. We recommend keeping the seal kit number with the coupling part number.' },
+];
+---
+<Layout title="ISO 7241 Hydraulic Quick Couplings — Series A & B | Hydraulic Quick Couplings" description="ISO 7241-1 Series A and Series B hydraulic quick couplings in 1/4&quot; to 2&quot;. Ball-lock sleeve design, poppet valves, NPT/BSPP/JIC/ORFS threads. Selection and interchange support.">
+  <ProductPageTemplate
+    model="ISO 7241-1 Hydraulic Quick Couplings"
+    series="Series A & Series B"
+    category="Ball-Lock Quick Couplings"
+    tagline="The global workhorse for hydraulic lines — dimensionally interchangeable per ISO 7241-1, available in steel, stainless and brass with the end connections you specify."
+    description="ISO 7241-1 quick couplings are the general-purpose ball-lock couplings used across machine tools, construction equipment, agriculture and industrial hydraulics. The sleeve-operated design connects and disconnects by hand, and poppet valves on both halves limit spill when lines are separated. We supply both Series A and Series B profiles in sizes from 1/4&quot; to 2&quot;, with NPT, BSPP, BSPT, JIC or ORFS end connections."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={['ISO 7241-1 dimensional interchange', 'Seal kits stocked per size and series', 'Custom threads and materials on request', '24h response on quote requests']}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+          <h2 class="text-2xl font-extrabold text-navy-950">Series A vs Series B at a Glance</h2>
+          <div class="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-navy-950 text-white">
+                <tr>
+                  <th class="px-6 py-3.5 font-semibold">Feature</th>
+                  <th class="px-6 py-3.5 font-semibold">Series A (ISO-A)</th>
+                  <th class="px-6 py-3.5 font-semibold">Series B (ISO-B)</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Profile</td><td class="px-6 py-3 text-slate-600">Flat-ended, general purpose</td><td class="px-6 py-3 text-slate-600">European/commonwealth, contoured sleeve</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Dominant markets</td><td class="px-6 py-3 text-slate-600">Global, Asia, North America</td><td class="px-6 py-3 text-slate-600">Europe, Australia, NZ</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Interchange</td><td class="px-6 py-3 text-slate-600">Series A makers (Parker 6600-type, IRB-type)</td><td class="px-6 py-3 text-slate-600">Series B makers (DNP HNV-type, Stucchi IRB B)</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Typical use</td><td class="px-6 py-3 text-slate-600">Machine tools, industrial lines</td><td class="px-6 py-3 text-slate-600">Mobile, agricultural, construction</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Mixing</td><td class="px-6 py-3 text-slate-600" colspan="2">⚠️ Never mix — Series A and B do not couple</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="mt-6 max-w-3xl text-sm leading-relaxed text-slate-600">Replacement rules of thumb: if you are in Europe, Australia or on European-built machinery, check Series B first; if the machine is Asian or North American built, Series A is the likely profile. When in doubt, measure — see our <a href="/blog/how-to-identify-hydraulic-quick-couplings/" class="font-semibold text-brand-blue hover:underline">identification guide</a>.</p>
+        </div>
+      </section>
+
+      <section class="bg-slate-50">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+          <h2 class="text-2xl font-extrabold text-navy-950">How to Spec a Series A or B Coupling</h2>
+          <ol class="mt-6 space-y-4">
+            {[
+              'Confirm the profile: Series A or Series B (from the existing coupling or machine documentation).',
+              'Pick the nominal size by flow: 1/4" for pilot and control lines, 3/8"–1/2" for most mobile circuits, 3/4"–1" for high-flow return lines.',
+              'Choose the end connections for both halves: NPT, BSPP, BSPT, JIC or ORFS, with thread size.',
+              'Select material: carbon steel for general duty, stainless for corrosive media, brass for low-pressure and non-magnetic needs.',
+              'Note any specials: connect-under-pressure, lockable sleeve, or specific plating.',
+            ].map((step, i) => (
+              <li class="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4">
+                <span class="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-brand-blue text-sm font-bold text-white">{i + 1}</span>
+                <span class="text-sm leading-relaxed text-slate-700">{step}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

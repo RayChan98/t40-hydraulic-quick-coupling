@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [["Main standard", "ISO 7241-1 Series A (and B where European OEM specifies)"], ["Dominant sizes", "1/4\" to 3/4\""], ["Threads", "NPT, BSPP, JIC, ORFS - machine-dependent"], ["Environment", "Indoor, clean; media varies (HLP, HFD-R, water-glycol)"], ["Key advantage", "Rebuildable, low cost, universal availability"], ["Inventory tip", "Standardize on one profile + one thread per plant"]];
+const features = ["Series A/B industrial focus", "Plant standardization advice", "Media compatibility guidance", "Seal kit support"];
+const applications = ["Machine tools", "Presses", "Power units", "Test benches", "Die casting", "Process lines"];
+const faqs = [{"q": "How do we cut coupling inventory?", "a": "Standardize each machine type on a single profile and thread combination. With ISO 7241 Series A + one thread per pressure class, one shelf of couplings and seal kits serves most of a plant."}];
+const trust = ["Industrial standardization help", "Seal kits stocked", "Media compatibility guidance", "24h quote response"];
+---
+<Layout title="Hydraulic Quick Couplings for Industrial - ISO 7241 Plant Guide | Hydraulic Quick Couplings" description="Industrial hydraulic quick couplings: ISO 7241-1 Series A/B for machine tools, presses, power units. Thread standards, media compatibility, plant standardization.">
+  <ProductPageTemplate
+    model="Hydraulic Quick Couplings for Industrial"
+    series="Application"
+    category="Applications"
+    tagline="Machine tools, presses and process lines run on ISO 7241 - dependable, rebuildable, and spec-able to your exact thread."
+    description="Industrial hydraulics are the home of ISO 7241-1 Series A couplings: machine tools, presses, power units, test benches and process lines. This page is the industrial buyer quick reference - what to specify, how to standardize across a plant, and how to keep coupling inventory low."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={trust}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6"><h2 class="text-2xl font-extrabold text-navy-950">Standardize, Then Stock</h2><p class="mt-4 max-w-3xl text-sm leading-relaxed text-slate-600">Plants that standardize on one profile and one thread per pressure class cut coupling inventory 40-60%. Maintenance stops guessing, procurement buys volume, and rebuilds become a shelf item.</p></div></section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

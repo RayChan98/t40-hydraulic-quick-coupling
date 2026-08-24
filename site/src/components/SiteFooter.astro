@@ -1,0 +1,70 @@
+---
+const productLinks = [
+  { href: '/iso-7241-hydraulic-quick-couplings/', label: 'ISO 7241 Quick Couplings' },
+  { href: '/flat-face-hydraulic-couplings/', label: 'Flat Face Couplings' },
+  { href: '/agricultural-hydraulic-couplings/', label: 'Agricultural Couplings' },
+  { href: '/ball-lock-hydraulic-couplings/', label: 'Ball Lock Couplings' },
+  { href: '/pin-lock-hydraulic-couplings/', label: 'Pin Lock Couplings' },
+];
+const companyLinks = [
+  { href: '/blog/', label: 'Blog & Guides' },
+  { href: '/faq/', label: 'FAQ' },
+  { href: '/about/', label: 'About Us' },
+  { href: '/quality/', label: 'Quality & Standards' },
+  { href: '/oem-supply/', label: 'OEM / Custom Supply' },
+  { href: '/contact/', label: 'Contact' },
+];
+---
+<footer class="bg-navy-950 text-slate-300">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+    <div class="grid gap-10 md:grid-cols-4">
+      <!-- Brand -->
+      <div>
+        <a href="/" class="flex items-center gap-2">
+          <span class="text-base font-extrabold tracking-tight text-white">HYDRAULIC <span class="text-night-green">QUICK COUPLINGS</span></span>
+        </a>
+        <p class="mt-4 text-sm leading-relaxed text-slate-400">
+          ISO 7241-1 Series A &amp; B, ISO 16028 flat-face and ISO 5675 agricultural quick couplings. Selection, interchange and supply support for distributors, OEMs and maintenance teams.
+        </p>
+      </div>
+
+      <!-- Products -->
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wider text-white">Couplings</h3>
+        <ul class="mt-4 space-y-2">
+          {productLinks.map((l) => (
+            <li><a href={l.href} class="text-sm transition hover:text-white">{l.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wider text-white">Resources</h3>
+        <ul class="mt-4 space-y-2">
+          {companyLinks.map((l) => (
+            <li><a href={l.href} class="text-sm transition hover:text-white">{l.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wider text-white">Get a Quote</h3>
+        <p class="mt-4 text-sm leading-relaxed text-slate-400">
+          Tell us the standard, size, thread and quantity. We reply within 24 hours.
+        </p>
+        <a href="/contact/" class="mt-4 inline-flex items-center rounded-lg bg-cta-orange px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-600">
+          Request a Quote
+        </a>
+        <p class="mt-4 text-xs text-slate-500">
+          <a href="mailto:cj226144@gmail.com" class="transition hover:text-white">cj226144@gmail.com</a>
+        </p>
+      </div>
+    </div>
+    <div class="mt-10 border-t border-white/10 pt-6 text-xs text-slate-500">
+      <p>© {new Date().getFullYear()} Hydraulic Quick Couplings. All rights reserved.</p>
+      <p class="mt-1">ISO 7241-1 · ISO 16028 · ISO 5675 · ISO 7241-2</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [["Main standard", "ISO 5675 (tractor implements)"], ["Also common", "ISO 7241 Series A/B (general), ISO 16028 flat face (high-flow/high-tech implements)"], ["Dominant size", "1/2\" (DN 12.5)"], ["Environment", "Dust, mud, UV, bio-oils, vibration"], ["Common failures", "Seal wear, contamination, stuck sleeves"], ["Maintenance", "Caps on parked implements, wipe before connect, seal kits"]];
+const features = ["ISO 5675 and flat-face coverage", "Dust cap recommendations", "Bio-oil seal options (FKM/HNBR)", "Fleet-order support"];
+const applications = ["Tractors", "Combines", "Sprayers", "Balers", "Self-propelled sprayers", "Front loaders"];
+const faqs = [{"q": "Why do agricultural couplings fail so often?", "a": "Dust and contamination are the killers. A grain or soil particle trapped on a seal face becomes a leak in weeks. Cap every disconnected coupling."}];
+const trust = ["Agricultural coupling specialist", "Caps & plugs stocked", "Bio-oil seal options", "24h quote response"];
+---
+<Layout title="Hydraulic Quick Couplings for Agriculture - Tractor & Implement Guide | Hydraulic Quick Couplings" description="Agricultural hydraulic quick couplings: ISO 5675 tractor implements, flat-face for high-flow, dust caps, bio-oil seals and field maintenance.">
+  <ProductPageTemplate
+    model="Hydraulic Quick Couplings for Agriculture"
+    series="Application"
+    category="Applications"
+    tagline="Tractors, implements and self-propelled machines run on quick couplings - here is how to spec and maintain them in the field."
+    description="Agriculture is the biggest single market for hydraulic quick couplings. This page covers the coupling types used on farm machinery, the standards that apply, and the maintenance habits that keep implements working through the season."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={trust}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6"><h2 class="text-2xl font-extrabold text-navy-950">Field Maintenance That Pays</h2><p class="mt-4 max-w-3xl text-sm leading-relaxed text-slate-600">Fit dust caps on every implement coupling at the end of the season. Wipe the faces before each hookup. Replace seals at the first weep rather than at failure. A cap costs less than a litre of spilled hydraulic oil.</p></div></section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

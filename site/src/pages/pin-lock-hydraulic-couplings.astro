@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [["Design", "Positive pin-lock mechanism"], ["Sizes", "1/4\" to 1\" common"], ["Pressure", "200-350 bar class (size and material dependent)"], ["Materials", "Carbon steel plated; stainless option"], ["Locking", "Positive pins, sleeve-released"], ["Threads", "NPT, BSPP, JIC, ORFS"], ["Applications", "Heavy mobile, high-vibration, high-flow"], ["Options", "Lockable sleeve, dust caps"]];
+const features = ["Positive locking under vibration", "No accidental sleeve release", "High-flow variants", "One-handed operation", "Steel or stainless", "Custom threads"];
+const applications = ["Excavators", "Mining equipment", "Forestry", "High-flow mobile circuits", "Heavy plant"];
+const faqs = [{"q": "Pin lock vs ball lock - when does it matter?", "a": "If a machine vibrates hard or an operator can bump the sleeve (forestry, mining), pin lock prevents accidental disconnect. For general industrial duty, ball lock is cheaper and sufficient."}];
+const trust = ["Positive-lock safety design", "High-flow variants", "Custom threads & materials", "24h quote response"];
+---
+<Layout title="Pin Lock Hydraulic Couplings - Positive Lock for Heavy Duty | Hydraulic Quick Couplings" description="Pin lock hydraulic couplings: positive locking pins resist accidental disconnect under vibration. For excavators, mining, forestry. NPT/BSPP/JIC/ORFS.">
+  <ProductPageTemplate
+    model="Pin Lock Hydraulic Couplings"
+    series="Pin-Lock Series"
+    category="Positive-Lock Couplings"
+    tagline="Positive locking pins for high-vibration circuits and applications where a sleeve could be accidentally pulled."
+    description="Pin lock hydraulic couplings replace the ball/sleeve mechanism with positive locking pins. The design resists accidental disconnection under vibration and shock loads, making it a safety-preferred choice for heavy mobile equipment and high-flow circuits. Sleeve release still allows one-handed operation."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={trust}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6"><h2 class="text-2xl font-extrabold text-navy-950">Where Pin Lock Earns Its Keep</h2><p class="mt-4 max-w-3xl text-sm leading-relaxed text-slate-600">Any circuit that disconnects itself under vibration is a pin-lock candidate: forestry grapples, mining hammers, demolition tools. If you have ever replaced a coupling after a sleeve was knocked open, pin lock is the upgrade.</p></div></section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

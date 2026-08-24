@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import BlogPostTemplate from '../components/BlogPostTemplate.astro';
+const { title, category, date, readTime, author = 'Ray Chan', toc = [], related = [], description = '' } = Astro.props;
+---
+<Layout title={`${title} | Hydraulic Quick Couplings`} description={description}>
+  <BlogPostTemplate title={title} category={category} date={date} readTime={readTime} author={author} toc={toc} related={related}>
+    <slot />
+  </BlogPostTemplate>
+</Layout>

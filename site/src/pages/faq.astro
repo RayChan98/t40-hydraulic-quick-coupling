@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+const faqs = [
+  ['What is the difference between ISO 7241 Series A and Series B?', 'Series A is the global general-purpose profile (ISO-A); Series B is the European/commonwealth profile. They have different dimensional profiles and do not couple with each other. Check the sleeve profile and markings on your existing coupling, or measure it per our identification guide.'],
+  ['What does "flat face" mean on a hydraulic coupling?', 'Flat-face (flush-face) couplings have flat sealing faces that wipe clean during connection, keeping contamination out of the hydraulic system. They also spill far less fluid on disconnect than ball-lock designs — the standard is ISO 16028.'],
+  ['Can I connect a flat-face coupling under pressure?', 'Standard ISO 16028 couplings need the circuit depressurized. Connect-under-pressure (CUP) versions relieve trapped pressure during connection and are the safe choice for machines that hot-swap attachments, like skid steers.'],
+  ['What is the most common tractor coupling size?', '1/2" ISO 5675 is the dominant agricultural coupling size for tractor-to-implement connections. High-flow implements may use flat-face ISO 16028 instead.'],
+  ['What threads are available?', 'NPT (US tapered pipe), BSPP (parallel pipe), BSPT (tapered BSP), JIC (37° flare) and ORFS (O-ring face seal). The coupling interface standard does not dictate the end thread — you specify both.'],
+  ['Are quick couplings interchangeable across brands?', 'Dimensional interchange follows the ISO standard (e.g., ISO 7241-1), so couplings from different manufacturers mate in most cases. Always verify sealing, flow and pressure ratings with the data sheet before mixing brands in critical circuits.'],
+  ['Why is my quick disconnect leaking?', 'The top causes are contamination on the seal faces, worn O-rings, and damaged locking sleeves from connecting under residual pressure. See our guide: Hydraulic Quick Disconnect Leaking — Top 5 Causes & Fixes.'],
+  ['Can I rebuild a coupling instead of replacing it?', 'Usually yes. Replace the O-rings and, if scored, the ball set. We stock seal kits per size and series — keep the seal kit number with the coupling part number.'],
+  ['Do you supply caps and plugs?', 'Yes — dust caps and plugs for flat-face, ball-lock and agricultural couplings in common sizes. They are the cheapest maintenance part on a machine and the most effective.'],
+  ['What information do you need for a quote?', 'Standard (ISO 7241 A/B, ISO 16028, ISO 5675), size (e.g., 1/2"), thread (NPT, BSPP, JIC, ORFS), material if special, quantity, and target market if relevant. A photo or part number works too — we cross-reference it.'],
+];
+---
+<Layout title="FAQ — Hydraulic Quick Couplings | Hydraulic Quick Couplings" description="Frequently asked questions about ISO 7241, ISO 16028 and ISO 5675 hydraulic quick couplings: Series A vs B, flat face, threads, interchangeability, leaking and more.">
+  <section class="bg-navy-950 text-white">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+      <h1 class="text-4xl font-extrabold tracking-tight">FAQ</h1>
+      <p class="mt-3 max-w-2xl text-lg text-slate-300">The questions buyers and maintenance teams ask us most.</p>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+      <div class="space-y-4">
+        {faqs.map(([q, a]) => (
+          <details class="group rounded-2xl border border-slate-200 bg-white">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-6 py-5">
+              <span class="text-base font-bold text-navy-950">{q}</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-5 w-5 shrink-0 text-slate-400 transition group-open:rotate-180"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+            </summary>
+            <div class="px-6 pb-6 text-sm leading-relaxed text-slate-600">{a}</div>
+          </details>
+        ))}
+      </div>
+
+      <div class="mt-12 rounded-2xl bg-navy-950 p-8 text-white">
+        <h2 class="text-xl font-extrabold">Still Not Sure?</h2>
+        <p class="mt-2 text-sm text-slate-300">Send us the machine or existing coupling details — we will help you identify the right standard, size and thread.</p>
+        <a href="/contact/" class="mt-5 inline-flex items-center rounded-lg bg-cta-orange px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-orange-600">Ask a Question</a>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [["What we supply", "ISO 7241 A/B, ISO 16028, ISO 5675 quick couplings; seal kits; caps & plugs"], ["Custom options", "Threads, materials (steel/stainless/brass), plating, sleeve colors, private packaging"], ["Documentation", "Packing lists, COO, test reports on request"], ["Lead time", "Standard sizes stocked; custom specs quoted per order"], ["MOQ", "Flexible - quoted per line item"], ["Payment", "T/T, L/C; terms discussed per order"]];
+const features = ["All ISO quick-coupling ranges", "Custom threads & materials", "Private packaging option", "Documentation for importers", "Flexible MOQ & lead times"];
+const applications = ["OEM hydraulic builders", "Distributors", "Fleet owners", "Importers", "Maintenance contractors"];
+const faqs = [{"q": "Can you match our existing part numbers?", "a": "Yes - send us your part number or a sample; we cross-reference to the ISO profile and quote the matching range with full dimensions for your approval."}, {"q": "What is your typical lead time?", "a": "Standard sizes from stock; custom specs typically 2-4 weeks depending on quantity and finish. Quote confirms."}];
+const trust = ["All ISO ranges in one quote", "Custom specs welcome", "Documentation ready", "24h response"];
+---
+<Layout title="OEM & Custom Hydraulic Coupling Supply - Volume, Custom Specs | Hydraulic Quick Couplings" description="OEM and volume supply of hydraulic quick couplings: ISO 7241/16028/5675, custom threads and materials, private packaging, importer documentation.">
+  <ProductPageTemplate
+    model="OEM & Custom Coupling Supply"
+    series="B2B Supply"
+    category="Volume & Custom"
+    tagline="Tell us the standard, size, thread, quantity and finish - we handle the supply, packaging and documentation."
+    description="We support OEMs, distributors and fleet owners with volume supply of hydraulic quick couplings: standard ISO 7241/16028/5675 ranges, custom threads and materials, private packaging, and the documentation importers need. No rigid MOQ games - tell us what you need and we quote the honest path."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={trust}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6"><h2 class="text-2xl font-extrabold text-navy-950">How We Quote</h2><ol class="mt-6 space-y-3"><li class="text-sm text-slate-700">1. You send: standard/size/thread/quantity (or part number/sample).</li><li class="text-sm text-slate-700">2. We confirm: profile match, dimensions, lead time, price.</li><li class="text-sm text-slate-700">3. We deliver: packed, documented, on schedule.</li></ol></div></section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

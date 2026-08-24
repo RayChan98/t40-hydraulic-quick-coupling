@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [
+  ['Standard', 'ISO 16028 (flat-face, flush-face quick couplings for hydraulic fluid power)'],
+  ['Size range', 'DN 6.3 (1/4") to DN 25 (1") common; larger sizes available'],
+  ['Working pressure', 'Typically 250–350 bar (3,600–5,000 psi) depending on size and material'],
+  ['Materials', 'Carbon steel with hardened flat-face surfaces; stainless steel option'],
+  ['Connection types', 'NPT, BSPP, BSPT, JIC, ORFS — specify both ends'],
+  ['Spill performance', 'Flat-face design: minimal fluid loss and low air inclusion on connect'],
+  ['Connect-under-pressure', 'Optional CUP (connect-under-pressure) versions for residual-pressure circuits'],
+  ['Applications', 'Skid steers, excavators, agriculture, forestry, demolition, snow removal'],
+];
+const features = [
+  'Flat sealing faces wipe clean before connection — contamination control',
+  'Minimal spill and air inclusion, ideal for environmental and safety-sensitive sites',
+  'Connect-under-pressure (CUP) variants for hot-swap of attachments',
+  'Hardened, precision-ground faces for long seal life',
+  'Stainless option for corrosive and washdown environments',
+  'Interchangeable per ISO 16028 with major flat-face ranges',
+];
+const applications = ['Skid steer loaders', 'Excavators', 'Forestry equipment', 'Agriculture', 'Demolition', 'Snow removal fleets'];
+const faqs = [
+  { q: 'Why choose flat-face over ball-lock?', a: 'Flat-face couplings have flush sealing faces that wipe clean on connection, so dirt cannot be trapped in the seal area. They also spill far less fluid on disconnect — important on environmental sites and for expensive bio-oils.' },
+  { q: 'Can flat-face connect under residual pressure?', a: 'Standard ISO 16028 couplings need depressurization. Connect-under-pressure (CUP) versions relieve trapped pressure during connection and are the safe choice for circuits that routinely connect hot.' },
+  { q: 'Are flat-face couplers interchangeable across brands?', a: 'ISO 16028 defines the dimensional envelope, so major brands mate. Verify pressure rating and seal compatibility before mixing in critical circuits.' },
+  { q: 'What about caps and plugs?', a: 'Caps and plugs protect the flat faces when disconnected — strongly recommended for dusty job sites. We stock them per size.' },
+];
+---
+<Layout title="Flat Face Hydraulic Couplings (ISO 16028) — Low Spill & CUP | Hydraulic Quick Couplings" description="ISO 16028 flat-face hydraulic couplings for skid steers, excavators and agriculture. Low spill, contamination control, connect-under-pressure options. NPT/BSPP/JIC/ORFS.">
+  <ProductPageTemplate
+    model="Flat Face Hydraulic Couplings"
+    series="ISO 16028"
+    category="Low-Spill Quick Couplings"
+    tagline="Flush-face sealing that wipes clean on every connection — for mobile equipment where spill, contamination and safety matter."
+    description="Flat-face (flush-face) hydraulic couplings per ISO 16028 are the standard choice for skid steer loaders, excavators, forestry and agricultural attachments. The flat sealing faces wipe clean before the valves open, keeping dirt out of the hydraulic system; the design also minimizes fluid spill and air inclusion on disconnect. We supply standard and connect-under-pressure (CUP) versions with NPT, BSPP, BSPT, JIC or ORFS end connections."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={['ISO 16028 dimensional interchange', 'CUP (connect-under-pressure) options', 'Caps & plugs stocked per size', '24h response on quote requests']}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+          <h2 class="text-2xl font-extrabold text-navy-950">Flat Face vs Ball Lock: Which for Your Machine?</h2>
+          <div class="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-navy-950 text-white">
+                <tr>
+                  <th class="px-6 py-3.5 font-semibold">Criterion</th>
+                  <th class="px-6 py-3.5 font-semibold">Flat Face (ISO 16028)</th>
+                  <th class="px-6 py-3.5 font-semibold">Ball Lock (ISO 7241)</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Spill on disconnect</td><td class="px-6 py-3 text-slate-600">Minimal (flat faces)</td><td class="px-6 py-3 text-slate-600">Small (poppet), but face seal can drip</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Contamination control</td><td class="px-6 py-3 text-slate-600">Excellent — faces wipe clean</td><td class="px-6 py-3 text-slate-600">Moderate</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Connect under pressure</td><td class="px-6 py-3 text-slate-600">CUP versions available</td><td class="px-6 py-3 text-slate-600">Not standard</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Typical cost</td><td class="px-6 py-3 text-slate-600">Higher</td><td class="px-6 py-3 text-slate-600">Lower</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">Best for</td><td class="px-6 py-3 text-slate-600">Skid steers, excavators, bio-oil systems</td><td class="px-6 py-3 text-slate-600">Machine tools, general industrial</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-50">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+          <h2 class="text-2xl font-extrabold text-navy-950">Specifying Flat Face — 4 Decisions</h2>
+          <ol class="mt-6 space-y-4">
+            {[
+              'Size by flow: DN 6.3–DN 25. Match the machine\'s auxiliary flow and hose size.',
+              'CUP or standard: if operators connect hot attachments (e.g., multi-tool skid steer), choose connect-under-pressure.',
+              'Threads: ORFS for high-pressure mobile, JIC for US-built, BSPP for European machines.',
+              'Caps & plugs: order per coupling to protect faces between connections.',
+            ].map((step, i) => (
+              <li class="flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4">
+                <span class="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-brand-blue text-sm font-bold text-white">{i + 1}</span>
+                <span class="text-sm leading-relaxed text-slate-700">{step}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [["Standard", "ISO 5675 (agricultural hydraulic quick couplings)"], ["Size", "1/2\" (DN 12.5) dominant; other sizes on request"], ["Working pressure", "Typically 200 bar (3,000 psi) class"], ["Materials", "Carbon steel, zinc or nickel plated; stainless option"], ["Connections", "NPT, BSPP male/female per implement standard"], ["Flow", "Free-flow poppet design for high return flow"], ["Temperature", "-20 C to +100 C typical"], ["Applications", "Tractors, implements, balers, sprayers, loaders"]];
+const features = ["Free-flow poppet for high return flow", "Dust-resistant sleeve and ball lock", "One-handed connect/disconnect", "Interchangeable per ISO 5675 with major ranges", "Caps and plugs available per size", "Steel or stainless body"];
+const applications = ["Tractors", "Implements", "Balers", "Sprayers", "Front loaders", "Hay equipment"];
+const faqs = [{"q": "Is 1/2\" ISO 5675 the universal tractor size?", "a": "For most implements yes - 1/2\" ISO 5675 dominates agricultural quick couplings. Larger flow implements may use flat-face ISO 16028. Check the implement hose ends before ordering."}, {"q": "What threads do tractor couplings use?", "a": "Most ISO 5675 couplings come with NPT or BSPP threads; older European machines often use BSPP. Specify the thread of the implement hose."}];
+const trust = ["ISO 5675 dimensional interchange", "Caps & plugs stocked", "Custom thread options", "24h quote response"];
+---
+<Layout title="Agricultural Hydraulic Couplings (ISO 5675) - Tractor Implements | Hydraulic Quick Couplings" description="ISO 5675 agricultural hydraulic quick couplings for tractors and implements. Free-flow poppet, ball-lock sleeve, 1/2&quot; with NPT/BSPP. Dust caps available.">
+  <ProductPageTemplate
+    model="Agricultural Hydraulic Couplings"
+    series="ISO 5675"
+    category="Tractor Quick Couplings"
+    tagline="Free-flow tractor-to-implement couplings built for dusty fields, long duty cycles and one-handed hookup."
+    description="ISO 5675 agricultural couplings are the standard quick coupling for tractor implements and farm machinery. The free-flow poppet design supports high return flow, and the robust ball-lock sleeve stands up to dust, vibration and repeated connect cycles. Available for ISO 5675 implements with NPT or BSPP ends in the common 1/2&quot; size, plus matching dust caps."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={trust}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6"><h2 class="text-2xl font-extrabold text-navy-950">What Makes a Good Tractor Coupling</h2><p class="mt-4 max-w-3xl text-sm leading-relaxed text-slate-600">Field work is brutal on couplings: dust, mud, vibration and hundreds of connect cycles per season. ISO 5675 couplings survive because the free-flow poppet keeps return flow high and the sleeve keeps debris out of the locking mechanism. The most common failure is seal wear from contamination - fitting dust caps when implements are parked is the single best maintenance habit.</p></div></section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

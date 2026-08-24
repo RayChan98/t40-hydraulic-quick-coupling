@@ -1,0 +1,49 @@
+---const lang = Astro.url.pathname.startsWith('/es') ? 'es' : 'en';
+
+// Hero: dark navy, full-color night vision value prop, dual CTA (竞对调研共识)
+const props = Astro.props;
+const title = props.title ?? 'Full-Color Night Vision Security Cameras';
+const subtitle =
+  props.subtitle ??
+  'While others see black and white, we capture full color — 24/7, factory-direct.';
+const ctaPrimary = props.ctaPrimary ?? 'Get a Quote';
+const ctaSecondary = props.ctaSecondary ?? 'Explore Products';
+---
+
+
+<section class="bg-navy-950 text-white">
+  <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:py-28">
+    <div class="grid items-center gap-12 lg:grid-cols-2">
+      <div>
+        <p class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-night-green">
+          <span class="h-1.5 w-1.5 rounded-full bg-night-green"></span>
+          Full-Color Night Vision
+        </p>
+        <h1 class="mt-5 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">{title}</h1>
+        <p class="mt-5 max-w-xl text-lg leading-relaxed text-slate-300">{subtitle}</p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <button type="button" data-quote-open class="rounded-lg bg-cta-orange px-6 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-orange-600">{ctaPrimary}</button>
+          <a href="/iso-7241-hydraulic-quick-couplings/" class="rounded-lg border border-white/20 px-6 py-3 text-base font-semibold text-white transition hover:bg-white/10">
+            {ctaSecondary}
+          </a>
+        </div>
+      </div>
+      <div class="relative">
+        <!-- 占位图：假图 -->
+        <div class="aspect-video w-full overflow-hidden rounded-2xl bg-navy-800 ring-1 ring-white/10">
+          <svg viewBox="0 0 800 450" class="h-full w-full" role="img" aria-label="Hero placeholder image">
+            <rect width="800" height="450" fill="#102A45"/>
+            <circle cx="400" cy="225" r="90" fill="none" stroke="#2563EB" stroke-width="3"/>
+            <circle cx="400" cy="225" r="55" fill="none" stroke="#10B981" stroke-width="3"/>
+            <rect x="400" y="215" width="30" height="20" fill="#F97316"/>
+            <text x="400" y="380" text-anchor="middle" fill="#64748B" font-size="20" font-family="sans-serif">FULLCOLORCAM PLACEHOLDER</text>
+          </svg>
+        </div>
+        <div class="absolute -bottom-4 -left-4 hidden rounded-xl bg-white p-4 shadow-2xl sm:block">
+          <p class="text-xs text-slate-500">{lang === 'es' ? 'Modo Visión Nocturna' : 'Night Vision Mode'}</p>
+          <p class="text-sm font-bold text-navy-950">Full Color 24/7</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

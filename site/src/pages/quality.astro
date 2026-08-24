@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+const items = [
+  ['ISO dimensional standards', 'All couplings follow ISO 7241-1 (Series A/B), ISO 16028 (flat-face) or ISO 5675 (agricultural) dimensional envelopes. No "universal fit" vague claims.'],
+  ['Data-sheet honesty', 'Every spec states what must be confirmed — pressure rating, thread, material, seal compatibility — before you commit.'],
+  ['Interchange verification', 'Before we quote a cross-reference, we confirm the profile dimensions against the standard, not just a brand chart.'],
+  ['Seal and material traceability', 'Seal kits are stocked per size and series, so maintenance can rebuild instead of guess.'],
+  ['Documentation', 'Packing lists, COO and test reports available on request for importers and OEMs.'],
+  ['Responsive quoting', '24-hour response on quote requests, with lead times stated honestly per line item.'],
+];
+---
+<Layout title="Quality & Standards | Hydraulic Quick Couplings" description="How we ensure hydraulic quick couplings meet ISO 7241, ISO 16028 and ISO 5675 standards — and the data honesty you can expect on every quote.">
+  <section class="bg-navy-950 text-white">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+      <h1 class="text-4xl font-extrabold tracking-tight">Quality &amp; Standards</h1>
+      <p class="mt-3 max-w-2xl text-lg text-slate-300">The standards that define quick couplings — and the data discipline we apply to every order.</p>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {items.map(([t, d]) => (
+          <div class="rounded-2xl border border-slate-200 bg-white p-6">
+            <h2 class="text-base font-bold text-navy-950">{t}</h2>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">{d}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-12 rounded-2xl bg-slate-50 p-8">
+        <h2 class="text-xl font-extrabold text-navy-950">The Three Data Points You Should Always Confirm</h2>
+        <ol class="mt-4 space-y-3">
+          <li class="text-sm text-slate-700">1. <strong>Profile</strong> — Series A vs Series B vs flat-face vs agricultural. They do not mix.</li>
+          <li class="text-sm text-slate-700">2. <strong>Thread</strong> — NPT, BSPP, BSPT, JIC or ORFS, and the size. Threads are not cross-compatible.</li>
+          <li class="text-sm text-slate-700">3. <strong>Pressure class</strong> — working and burst pressure for your circuit, per size and material.</li>
+        </ol>
+        <p class="mt-4 text-sm text-slate-600">Any supplier that cannot answer these three in writing for the exact part number is guessing.</p>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductPageTemplate from '../components/ProductPageTemplate.astro';
+const specs = [["Nominal size", "1/2\" (DN 12.5)"], ["Profiles", "ISO 7241 Series A / Series B, ISO 16028 flat face, ISO 5675 agricultural"], ["Threads", "NPT 1/2\", BSPP 1/2\", JIC 3/4\"-16, ORFS 3/4\"-16, BSPT"], ["Pressure", "200-350 bar depending on profile and material"], ["Materials", "Carbon steel, stainless, brass"], ["Typical use", "Skid steers, tractors, excavator aux lines, hose reels"], ["Flow", "Match to circuit: check pressure-drop curves for continuous duty"], ["Accessories", "Dust caps, plugs, protective covers"]];
+const features = ["Covers every 1/2\" profile", "NPT/BSPP/JIC/ORFS thread options", "Steel, stainless or brass", "Caps and plugs stocked", "Custom assemblies on request"];
+const applications = ["Skid steer attachments", "Tractor implements", "Excavator aux circuits", "Hose reels", "Test equipment"];
+const faqs = [{"q": "1/2\" NPT or 1/2\" BSPP - which thread?", "a": "NPT is US standard, BSPP is the parallel pipe thread common in Europe/Asia. They are not compatible - a BSPP male will not seal in an NPT female. Match the hose fitting exactly."}, {"q": "What pressure can a 1/2\" coupler handle?", "a": "Typically 200-350 bar depending on profile (flat-face tends higher) and material. Confirm the data sheet for the exact model."}];
+const trust = ["All 1/2\" profiles in one place", "Threads NPT/BSPP/JIC/ORFS", "Caps & plugs stocked", "24h quote response"];
+---
+<Layout title="1/2&quot; Hydraulic Quick Couplers - Profiles, Threads & Specs | Hydraulic Quick Couplings" description="1/2&quot; hydraulic quick couplers: ISO 7241 A/B, ISO 16028 flat face, ISO 5675 agricultural. NPT/BSPP/JIC/ORFS threads, steel/stainless/brass, caps & plugs.">
+  <ProductPageTemplate
+    model="1/2&quot; Hydraulic Quick Couplers"
+    series="1/2&quot; (DN 12.5)"
+    category="Size Guide"
+    tagline="The most common mobile-equipment size - Series A, Series B, flat-face and agricultural profiles with every thread option."
+    description="1/2&quot; hydraulic quick couplers are the default size for mobile equipment auxiliary circuits: skid steer attachments, tractor implements, excavator thumb circuits and industrial hose reels. This page is your 1/2&quot; spec reference - profiles, threads, pressure classes and the questions to answer before ordering."
+    specs={specs}
+    features={features}
+    applications={applications}
+    faqs={faqs}
+    trustPoints={trust}
+  >
+    <Fragment slot="chapters">
+      <section class="bg-white"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6"><h2 class="text-2xl font-extrabold text-navy-950">Four Questions Before You Order 1/2" Couplers</h2><ol class="mt-6 space-y-3"><li class="text-sm text-slate-700">1. Profile - Series A, Series B, flat face or agricultural? Match the machine and the existing halves.</li><li class="text-sm text-slate-700">2. Thread - NPT, BSPP, JIC or ORFS on each end? Not interchangeable.</li><li class="text-sm text-slate-700">3. Material - steel for general duty, stainless for washdown/corrosive media.</li><li class="text-sm text-slate-700">4. Quantity & caps - fleet refits save when ordered as sets with caps.</li></ol></div></section>
+    </Fragment>
+  </ProductPageTemplate>
+</Layout>

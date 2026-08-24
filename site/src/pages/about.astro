@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="About Us | Hydraulic Quick Couplings" description="Hydraulic quick coupling supply specialist: ISO 7241-1 Series A/B, ISO 16028 flat-face and ISO 5675 agricultural couplings with selection and interchange support.">
+  <section class="bg-navy-950 text-white">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+      <h1 class="text-4xl font-extrabold tracking-tight">About Us</h1>
+      <p class="mt-3 max-w-2xl text-lg text-slate-300">We help distributors, OEMs and maintenance teams get the right hydraulic quick coupling the first time.</p>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div>
+          <h2 class="text-2xl font-extrabold text-navy-950">What We Do</h2>
+          <p class="mt-4 text-base leading-relaxed text-slate-600">
+            Hydraulic quick couplings look simple, but the standards matrix — ISO 7241-1 Series A and B, ISO 16028 flat-face, ISO 5675 agricultural — plus the thread options (NPT, BSPP, BSPT, JIC, ORFS) makes buying them correctly surprisingly hard. We exist to make it easy:
+          </p>
+          <ul class="mt-6 space-y-3">
+            {[
+              'Full ISO range in one place — no more chasing three suppliers for one machine',
+              'Selection and interchange guidance that most suppliers never provide',
+              'Honest quoting: standard sizes from stock, custom specs with real lead times',
+              'Seal kits and caps so you can maintain instead of replace',
+            ].map((t) => (
+              <li class="flex items-start gap-3 rounded-lg bg-slate-50 p-3">
+                <span class="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-night-green/10 text-night-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="h-3.5 w-3.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+                </span>
+                <span class="text-sm text-slate-700">{t}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-2xl font-extrabold text-navy-950">Our Standards</h2>
+          <div class="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-navy-950 text-white">
+                <tr>
+                  <th class="px-6 py-3.5 font-semibold">Standard</th>
+                  <th class="px-6 py-3.5 font-semibold">What it covers</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                <tr><td class="px-6 py-3 font-medium text-navy-950">ISO 7241-1</td><td class="px-6 py-3 text-slate-600">General-purpose quick couplings, Series A &amp; B</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">ISO 16028</td><td class="px-6 py-3 text-slate-600">Flat-face (flush-face) couplings for mobile equipment</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">ISO 5675</td><td class="px-6 py-3 text-slate-600">Agricultural couplings for tractor implements</td></tr>
+                <tr><td class="px-6 py-3 font-medium text-navy-950">ISO 7241-2</td><td class="px-6 py-3 text-slate-600">Performance and test requirements</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="mt-6 text-sm leading-relaxed text-slate-600">
+            Every product page on this site states the standard it follows and the data points you need to confirm — pressure, thread, material — before you buy. No vague "suitable for all machines" claims.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-navy-950 text-white">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+      <h2 class="text-2xl font-extrabold">Need a Hand Choosing?</h2>
+      <p class="mt-3 max-w-2xl text-slate-300">Send us the machine or the existing coupling — we will match the profile, size and threads for you.</p>
+      <a href="/contact/" class="mt-6 inline-flex items-center rounded-lg bg-cta-orange px-6 py-3 font-semibold text-white transition hover:bg-orange-600">Contact Us</a>
+    </div>
+  </section>
+</Layout>
