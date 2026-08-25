@@ -8,6 +8,12 @@ export const navEN = {
     { href: '/ball-lock-hydraulic-couplings/', label: 'Ball Lock Couplings', icon: '⚙️', desc: 'Quick-disconnect ball sleeve type' },
     { href: '/pin-lock-hydraulic-couplings/', label: 'Pin Lock Couplings', icon: '📌', desc: 'Positive pin-lock disconnect' },
     { href: '/1-2-inch-hydraulic-quick-couplers/', label: '1/2" Couplers', icon: '📏', desc: 'Most common mobile size' },
+    { href: '/bobcat-hydraulic-quick-couplers/', label: 'Bobcat', icon: '🦾', desc: 'Skid steer & CTL compatible' },
+    { href: '/caterpillar-hydraulic-quick-couplers/', label: 'Caterpillar', icon: '🦾', desc: 'Cat compact & excavator lines' },
+    { href: '/john-deere-hydraulic-quick-couplers/', label: 'John Deere', icon: '🦾', desc: 'Deere tractors & construction' },
+    { href: '/kubota-hydraulic-quick-couplers/', label: 'Kubota', icon: '🦾', desc: 'Kubota tractor & compact lines' },
+    { href: '/jcb-hydraulic-quick-couplers/', label: 'JCB', icon: '🦾', desc: 'Telehandler & backhoe compatible' },
+    { href: '/komatsu-hydraulic-quick-couplers/', label: 'Komatsu', icon: '🦾', desc: 'Excavator & loader lines' },
   ],
   industries: [
     { href: '/hydraulic-quick-couplings-for-agriculture/', label: 'Agriculture', icon: '🚜', desc: 'Tractors, implements, sprayers' },
