@@ -32,6 +32,9 @@ toc:
 
 > 体裁：对比文（横向对比意图）
 
+
+![Male straight-thread hydraulic fitting showing the sealing thread form](/images/blog/blog-iso-7241-series-a-vs-series-b-01.webp)
+
 ## Intro — Same Standard, Different Profiles
 
 If you have worked with hydraulic quick couplings for more than a week, you have met the ISO 7241 confusion. Two coupling profiles share the same standard number, they are both called "ISO 7241", they are both ball-lock quick disconnects — and they do not fit each other.
@@ -44,6 +47,9 @@ ISO 7241-1 defines two interchangeable profiles for hydraulic quick-action coupl
 A Series A male half will not latch into a Series B female half, and vice versa. They look similar at a glance, which is exactly why buyers order the wrong one — and why "ISO 7241" alone is not enough information for a supplier.
 
 This guide explains the practical differences, how to tell them apart from the part number or the physical part, and what to specify so you never order the wrong family again.
+
+
+![Hydraulic ram battery plumbed with quick-connect supply lines](/images/blog/blog-iso-7241-series-a-vs-series-b-02.webp)
 
 ## The Two Profiles in One Table
 

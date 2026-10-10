@@ -24,11 +24,17 @@ toc:
 ---
 > **Maintenance guide** — this is a hands-on service article for technicians and fleet maintenance teams. It assumes the coupling is removed from the circuit and fully depressurized.
 
+
+![O-ring seals laid out for a seal replacement job](/images/blog/blog-hydraulic-quick-coupling-o-ring-replacement-01.webp)
+
 ## Why O-Rings Are the Most-Replaced Part on a Quick Coupling
 
 A hydraulic quick coupling is a precision valve assembly, but its sealing is done by a handful of inexpensive elastomer rings. When a coupling starts to drip, leak under pressure, or weep past the sleeve, the cause is almost always one of these seals — not the machined body.
 
 Replacing them is the cheapest repair in hydraulics: a seal kit for a 1/2" ISO 7241 coupling typically costs a fraction of a new coupling and takes under ten minutes with the right tools. The risk is ordering the wrong kit, because the same coupling size carries **four different seals with four different jobs**, and they are not interchangeable.
+
+
+![Valve package assembly with sealing surfaces exposed for inspection](/images/blog/blog-hydraulic-quick-coupling-o-ring-replacement-02.webp)
 
 ## Where the Seals Sit on ISO 7241, ISO 16028 and ISO 5675
 

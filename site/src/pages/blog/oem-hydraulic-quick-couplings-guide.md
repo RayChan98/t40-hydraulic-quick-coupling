@@ -22,6 +22,9 @@ toc:
 ---
 > **B2B guide** — for equipment manufacturers who buy couplings in volume. This is the process we run on every OEM inquiry, and the five-piece RFQ packet is what makes a project fast instead of a loop.
 
+
+![CNC machining coupling bodies from bar stock](/images/blog/blog-oem-hydraulic-quick-couplings-guide-01.webp)
+
 ## What OEM Means for Quick Couplings
 
 OEM (original equipment manufacturer) supply of hydraulic quick couplings means the coupling becomes part of *your* product — a tractor's hydraulic outlet, a skid steer's coupler bank, an implement's line set. The coupling carries your part number, your packaging, and your quality bar, so the relationship is different from a stock purchase: it's a specification project.
@@ -34,6 +37,9 @@ Two flavors of OEM work:
 | **Custom engineered** | Modified dimensions, materials, threads, markings or features | Your design needs something the catalog doesn't offer |
 
 Most OEM projects start as branded standard and add custom elements over time — threads, special seals, dual markings, color-coded sleeves.
+
+
+![Finished machined coupling components after CNC turning](/images/blog/blog-oem-hydraulic-quick-couplings-guide-02.webp)
 
 ## The RFQ Five-Piece Packet
 

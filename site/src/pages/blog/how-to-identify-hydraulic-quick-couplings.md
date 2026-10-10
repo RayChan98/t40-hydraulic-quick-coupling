@@ -34,6 +34,9 @@ Identification is a measurement job, not a guessing job. Two couplings can look 
 
 > ⚠️ Identification is not approval. When you have a candidate part number, confirm dimensions and ratings against current manufacturer drawings before purchase or installation.
 
+
+![Side view of an excavator attachment with multiple hydraulic couplers](/images/blog/blog-how-to-identify-hydraulic-quick-couplings-01.webp)
+
 ## Why Identification Matters
 
 The cost of a wrong guess is downtime, at minimum. The wrong coupling can also fail under pressure — unexpected disconnection, leakage, or fluid injection injury. Getting the identification right means:
@@ -42,6 +45,9 @@ The cost of a wrong guess is downtime, at minimum. The wrong coupling can also f
 - **The right size** — nominal size must match inside the family; a 1/2" ISO 7241 Series A plug is not a 1/2" ISO 16028 plug.
 - **The right rear connection** — thread standard and size are independent of the coupling interface.
 - **The right duty** — pressure class, flow, and temperature must suit the circuit.
+
+
+![Row of hydraulic quick coupler valves on a carrier machine](/images/blog/blog-how-to-identify-hydraulic-quick-couplings-02.webp)
 
 ## Step 1: Record the Application
 

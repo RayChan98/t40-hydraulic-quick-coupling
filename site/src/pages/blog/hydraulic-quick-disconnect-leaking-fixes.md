@@ -34,6 +34,9 @@ This guide covers the five causes behind most leaking quick disconnects, how to 
 
 > ⚠️ Never inspect a suspected high-pressure leak with bare hands or a rag. Hydraulic fluid injection injuries are medical emergencies. Depressurize the circuit completely before touching any coupling.
 
+
+![Crimped hydraulic hose ends fitted with reusable couplings](/images/blog/blog-hydraulic-quick-disconnect-leaking-fixes-01.webp)
+
 ## The Top 5 Causes of a Leaking Quick Disconnect
 
 | # | Cause | How it looks | How often |
@@ -43,6 +46,9 @@ This guide covers the five causes behind most leaking quick disconnects, how to 
 | 3 | Incomplete engagement (plug not fully locked) | Leaks only at pressure; sleeve not fully home | Common |
 | 4 | Wrong mating pair (A vs B, wrong size) | Does not seal or locks poorly; new part recently installed | Common on replacements |
 | 5 | Damaged valve face or locking groove | Leaks constantly; plug feels loose or grinds | Less common, usually abuse |
+
+
+![Crimp dies and hose fittings used to rebuild a leaking line](/images/blog/blog-hydraulic-quick-disconnect-leaking-fixes-02.webp)
 
 ## Cause 1 — Worn O-Rings and Seals
 

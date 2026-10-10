@@ -24,11 +24,17 @@ toc:
 ---
 > **Safety guide** — this article is about preventing injury. The single most important rule: **never connect or disconnect a hydraulic quick coupling while the circuit is pressurized.** Everything below is how to make that rule practical on real machines.
 
+
+![Technicians inspecting a hydraulic test stand during a pressure check](/images/blog/blog-hydraulic-quick-coupling-pressure-safety-01.webp)
+
 ## Why Residual Pressure Is the Danger
 
 A hydraulic quick coupling is designed to be operated unpressurized. The poppet valves in both halves seal the oil in the circuit — but when a line is disconnected with trapped pressure, that sealed oil is still at system pressure. A 1/2" line at 200 bar holds a surprising force on the poppet face, and the energy doesn't disappear when the coupling is separated: it shows up as a sudden release.
 
 The results are not minor. A coupling that pops free under pressure can whip a hose across the work area, spray a jet of oil hot enough to burn, or launch the coupling itself. **Oil injection injuries** — a pinhole jet of hydraulic fluid puncturing skin — are a known and permanently damaging hazard in this exact situation.
+
+
+![Hydraulic shop test bench with gauges isolating a valve under pressure](/images/blog/blog-hydraulic-quick-coupling-pressure-safety-02.webp)
 
 ## The Three Accident Patterns
 

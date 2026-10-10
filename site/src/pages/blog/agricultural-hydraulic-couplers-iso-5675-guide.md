@@ -22,6 +22,9 @@ toc:
 ---
 > **Application guide** — for tractor owners, dealers and implement makers. The ag market runs on ISO 5675, and the practical questions are about brands, sizes and retrofits.
 
+
+![Tractor pulling a mounted implement with hydraulic lines running to the rear outlets](/images/blog/blog-agricultural-hydraulic-couplers-iso-5675-guide-01.webp)
+
 ## What ISO 5675 Is
 
 ISO 5675 is the international standard for hydraulic quick-action couplers used on agricultural tractors and implements — the standard rear couplers on the tractor's hydraulic outlets that connect to trailed and mounted implements. It's a ball-lock design, physically similar to ISO 7241 but with its own dimensions, so ag couplers and industrial couplers are **not interchangeable**.
@@ -32,6 +35,9 @@ Key characteristics of the ISO 5675 ag coupler:
 - Sizes centered on 1/2" and 3/4" (the two hydraulic outlet sizes on most tractors), with 1/4" and 1" also available.
 - Designed for the tractor's implement circuits — typically up to ~200 bar working pressure on modern machines, though the standard itself covers the interface dimensions.
 - ISO 5675-1 covers the basic coupler interface; ISO 5675-2 the hydraulic connection geometry.
+
+
+![Tractor with three-point linkage and remote hydraulic couplers in a field](/images/blog/blog-agricultural-hydraulic-couplers-iso-5675-guide-02.webp)
 
 ## ISO 5675 vs ISO 7241
 

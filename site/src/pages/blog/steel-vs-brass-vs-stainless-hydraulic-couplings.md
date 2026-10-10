@@ -31,6 +31,9 @@ Hydraulic quick couplings are sold in three body materials — carbon steel, bra
 
 This guide compares the three materials on the properties that actually matter for quick couplings: strength, corrosion behavior, thread compatibility, weight, and cost — then maps them to applications.
 
+
+![Metal lathe turning a steel coupling body](/images/blog/blog-steel-vs-brass-vs-stainless-hydraulic-couplings-01.webp)
+
 ## The Three Materials in One Table
 
 | Property | Carbon steel | Brass | 316 stainless |
@@ -45,6 +48,9 @@ This guide compares the three materials on the properties that actually matter f
 | Best environment | Dry industrial, agriculture | Fresh water, low-pressure, food-adjacent | Marine, chemical, washdown, food |
 
 The pressure figures are representative for standard ISO 7241 couplings in 1/2" size; always use the manufacturer's rating plate for the exact coupling you are buying.
+
+
+![Workshop lathe line where coupling bodies are machined](/images/blog/blog-steel-vs-brass-vs-stainless-hydraulic-couplings-02.webp)
 
 ## Carbon Steel — The Workhorse
 

@@ -36,6 +36,9 @@ toc:
 
 > 体裁：参考/选型文（how-to + reference 混合）
 
+
+![Flanged pipe section with hand-wheel valve in an outdoor plant](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-01.webp)
+
 ## Intro — The Coupling Fits, the Thread Doesn't
 
 You have specified the perfect ISO 7241 Series A coupling in 1/2". It arrives, you thread it onto the hose... and it won't go. Or it goes, leaks, and strips.
@@ -43,6 +46,9 @@ You have specified the perfect ISO 7241 Series A coupling in 1/2". It arrives, y
 The ISO profile defines how the two coupling halves connect. It says nothing about the threads on the back of the coupling — the end that attaches to your hose or machine port. That is decided by the **thread standard**, and getting it wrong is the single most common reason a "correct" coupling fails on the first install.
 
 There are six thread families you will meet on hydraulic quick couplings: NPT/NPTF, BSPP (G), BSPT (R), JIC (37° flare), ORFS, and metric (M). This guide explains what each is, where it dominates, how to tell them apart, and how to order so the threads match the first time.
+
+
+![Threaded connections and valves on an industrial pipe rack](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-02.webp)
 
 ## The Six Threads at a Glance
 

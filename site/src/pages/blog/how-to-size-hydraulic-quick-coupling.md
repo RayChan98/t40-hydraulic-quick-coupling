@@ -28,11 +28,17 @@ toc:
 ---
 > **Selection guide** — pairing the right coupling to a circuit. The five inputs below are the same checklist our engineers ask for on every RFQ, because a coupling is only as good as the fit.
 
+
+![Hydraulic manifold block with multiple coupling ports and hoses](/images/blog/blog-how-to-size-hydraulic-quick-coupling-01.webp)
+
 ## Why Coupling Size Matters More Than People Think
 
 A hydraulic quick coupling is a flow restriction in the middle of a hose run. Oversize it and you pay more than you need to and add weight; undersize it and the coupling becomes the circuit's bottleneck — pressure drop, heat, reduced actuator speed, and cavitation in extreme cases.
 
 The good news: sizing a coupling is a five-input problem, and the first input (flow rate) does 80% of the work. This guide walks each input and ends with a sequence you can run in five minutes.
+
+
+![Excavator hydraulics routed to a tiltrotator quick coupling panel](/images/blog/blog-how-to-size-hydraulic-quick-coupling-02.webp)
 
 ## The Five Inputs
 

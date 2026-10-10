@@ -24,6 +24,9 @@ toc:
 ---
 > **Selection guide** — "no-spill" is the marketing word, but the engineering story is more precise. This guide covers what flat-face actually does, what it doesn't, and how to decide whether it's worth the premium.
 
+
+![Carrier machine with tiltrotator running flat-face hydraulic coupler lines](/images/blog/blog-flat-face-hydraulic-couplings-no-spill-explained-01.webp)
+
 ## The Claim: Flat-Face Couplings Don't Leak
 
 Walk any hydraulic trade show and you'll hear flat-face couplings described as "no-spill" or "leak-free." The precise claim, per ISO 16028, is about **spillage during connection and disconnection** — the oil lost each time the coupling is coupled or uncoupled. A flat-face coupling restricts that spillage to a tiny, measurable residual amount, typically a few drops or less per cycle, versus the stream of oil a ball-lock coupling can lose.
@@ -32,6 +35,9 @@ Two mechanisms make this happen:
 
 1. **Valves that close before the halves separate** — both halves have poppets that seal the moment the pair starts to separate, so the line fluid stays in the circuit.
 2. **A flat, lapped sealing face** — the male and female faces are precision-lapped flat, so when connected they wipe each other clean and seal face-to-face.
+
+
+![Hydraulic quick coupling lines connected to a rotating attachment](/images/blog/blog-flat-face-hydraulic-couplings-no-spill-explained-02.webp)
 
 ## How a Ball-Lock Coupling Leaks
 

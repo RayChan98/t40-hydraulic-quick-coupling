@@ -22,6 +22,9 @@ toc:
 ---
 > **Reference article** — the questions customers actually ask, grouped by topic, with links to the full guides where each subject is covered in depth.
 
+
+![Industrial pressure gauges on a hydraulic system header](/images/blog/blog-hydraulic-quick-couplings-faq-01.webp)
+
 ## Standards and Interchange
 
 **Q: What is an ISO 7241 coupling?**
@@ -35,6 +38,9 @@ A: Within the same standard and series, yes — that's the point of the ISO stan
 
 **Q: What is a flat-face coupling and why does it cost more?**
 A: A flat-face (ISO 16028) coupling seals on a flat mating face, so the sealing surfaces wipe clean on connection and the coupling is far more resistant to contamination and internal leakage. It costs more because of the precision flat lapping and the higher pressure rating.
+
+
+![Assorted hydraulic hose fittings and coupling bodies on a bench](/images/blog/blog-hydraulic-quick-couplings-faq-02.webp)
 
 ## Sizing and Selection
 

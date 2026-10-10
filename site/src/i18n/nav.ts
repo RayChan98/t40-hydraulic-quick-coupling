@@ -14,6 +14,10 @@ export const navEN = {
     { href: '/kubota-hydraulic-quick-couplers/', label: 'Kubota', icon: '🦾', desc: 'Kubota tractor & compact lines' },
     { href: '/jcb-hydraulic-quick-couplers/', label: 'JCB', icon: '🦾', desc: 'Telehandler & backhoe compatible' },
     { href: '/komatsu-hydraulic-quick-couplers/', label: 'Komatsu', icon: '🦾', desc: 'Excavator & loader lines' },
+    { href: '/case-hydraulic-quick-couplers/', label: 'Case', icon: '🦾', desc: 'Case IH & Case Construction' },
+    { href: '/new-holland-hydraulic-quick-couplers/', label: 'New Holland', icon: '🦾', desc: 'Tractors, skid steers, telehandlers' },
+    { href: '/claas-hydraulic-quick-couplers/', label: 'CLAAS', icon: '🦾', desc: 'Harvesters & tractors' },
+    { href: '/fendt-hydraulic-quick-couplers/', label: 'Fendt', icon: '🦾', desc: 'Premium AGCO tractors' },
   ],
   industries: [
     { href: '/hydraulic-quick-couplings-for-agriculture/', label: 'Agriculture', icon: '🚜', desc: 'Tractors, implements, sprayers' },

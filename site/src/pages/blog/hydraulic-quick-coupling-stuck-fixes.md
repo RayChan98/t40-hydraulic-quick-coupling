@@ -33,6 +33,9 @@ This guide covers the five causes we see most often on ISO 7241, ISO 16028 and I
 
 > **Safety note:** Never use a pipe wrench, hammer or pry bar on a stuck quick coupling while the line is pressurized. Depressurize the circuit first. For flat-face (ISO 16028) couplings, use a pressure-relief tool such as the Parker FD89-1001-08-08 style or an IRB14-type relief adapter to bleed trapped pressure before disconnecting.
 
+
+![Pressure gauge on a line being depressurized before disconnect](/images/blog/blog-hydraulic-quick-coupling-stuck-fixes-01.webp)
+
 ## Why Quick Couplings Get Stuck
 
 A quick coupling locks through a mechanical chain: the sleeve slides back, locking balls drop into the groove on the nipple, and the sleeve returns to hold them. Any part of that chain — the sleeve, the balls, the groove, or the pressure pushing against the poppet valves — can fail.
@@ -46,6 +49,9 @@ The symptoms tell you which link broke:
 | Sleeve slides but coupler still comes off | Worn locking balls or groove | Hose whip under pressure |
 | Locks, then unlocks itself under vibration | Wrong pair or worn balls | Sudden disconnect |
 | Coupler is stiff to push on from day one | Paint or debris on the nipple | Scored valve seat |
+
+
+![Rail carrier machine with hydraulic quick coupler panel for attachments](/images/blog/blog-hydraulic-quick-coupling-stuck-fixes-02.webp)
 
 ## Cause 1 — Trapped Pressure in the Line
 

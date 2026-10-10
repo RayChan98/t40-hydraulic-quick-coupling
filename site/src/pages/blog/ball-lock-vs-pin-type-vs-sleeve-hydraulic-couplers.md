@@ -24,6 +24,9 @@ toc:
 ---
 > **Selection guide** — the locking mechanism is the first choice when picking a quick coupling, because it decides connection feel, durability and which standards you can use.
 
+
+![Excavator tiltrotator with a bank of hydraulic quick coupling lines](/images/blog/blog-ball-lock-vs-pin-type-vs-sleeve-hydraulic-couplers-01.webp)
+
 ## Three Locking Mechanisms, One Job
 
 Every hydraulic quick coupling does the same trick: connect and disconnect a fluid line with one hand, no tools, no spills (in the right design). The difference between the designs is *how they lock*. Three mechanisms dominate the market:
@@ -33,6 +36,9 @@ Every hydraulic quick coupling does the same trick: connect and disconnect a flu
 - **Sleeve type** — a straight or tapered sleeve traps the nipple by friction/taper rather than discrete locking elements.
 
 They look similar from a distance and are *not* interchangeable. The standard ISO 7241 and ISO 5675 families are ball-lock; pin-type is a distinct design found mostly in heavy-duty and mining lines; sleeve-type is the older, simpler form.
+
+
+![Excavator with tiltrotator and hydraulic quick coupler connections](/images/blog/blog-ball-lock-vs-pin-type-vs-sleeve-hydraulic-couplers-02.webp)
 
 ## Ball Lock — The Industry Standard
 
