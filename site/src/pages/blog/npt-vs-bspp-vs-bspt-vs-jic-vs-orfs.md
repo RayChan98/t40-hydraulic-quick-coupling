@@ -39,6 +39,9 @@ toc:
 
 ![Flanged pipe section with hand-wheel valve in an outdoor plant](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-01.webp)
 
+
+![Flanged pipe section with hand-wheel valve in an outdoor plant](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-01.webp)
+
 ## Intro — The Coupling Fits, the Thread Doesn't
 
 You have specified the perfect ISO 7241 Series A coupling in 1/2". It arrives, you thread it onto the hose... and it won't go. Or it goes, leaks, and strips.

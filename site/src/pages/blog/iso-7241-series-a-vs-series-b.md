@@ -35,6 +35,9 @@ toc:
 
 ![Male straight-thread hydraulic fitting showing the sealing thread form](/images/blog/blog-iso-7241-series-a-vs-series-b-01.webp)
 
+
+![Male straight-thread hydraulic fitting showing the sealing thread form](/images/blog/blog-iso-7241-series-a-vs-series-b-01.webp)
+
 ## Intro — Same Standard, Different Profiles
 
 If you have worked with hydraulic quick couplings for more than a week, you have met the ISO 7241 confusion. Two coupling profiles share the same standard number, they are both called "ISO 7241", they are both ball-lock quick disconnects — and they do not fit each other.
