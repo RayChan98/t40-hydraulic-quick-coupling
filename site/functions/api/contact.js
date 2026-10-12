@@ -44,7 +44,9 @@ export async function onRequest(context) {
     ].join('\n');
 
     const env = context.env;
-    if (env.ZOHO_CLIENT_ID && env.ZOHO_CLIENT_SECRET && env.ZOHO_REFRESH_TOKEN && env.ZOHO_ACCOUNT_ID) {
+    if (env.ZOHO_CLIENT_ID && env.ZOHO_CLIENT_SECRET && env.ZOHO_REFRESH_TOKEN && env.ZOHO_ACCOUNT_ID && env.ZOHO_FROM_EMAIL) {
+      // 5 项齐才发信；缺 ZOHO_FROM_EMAIL 走下方 fail-closed——10-13 t_68c3823a 补闸：
+      // 原 `|| 'inquiry@fullcolorcam.com'` 硬编码系 fullcolorcam 克隆残留（他线发信身份），已清除（pleatpure 同案登记 H 项口径）
       // === Zoho Mail API (OAuth2) ===
       const tokenRes = await fetch(
         'https://accounts.zoho.com/oauth/v2/token?refresh_token=' + encodeURIComponent(env.ZOHO_REFRESH_TOKEN) +

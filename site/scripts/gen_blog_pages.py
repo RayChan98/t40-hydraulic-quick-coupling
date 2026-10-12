@@ -2,8 +2,8 @@
 """把 04-范本自审 的 3 篇英文文章转成博客 md 页（BlogLayout 驱动）"""
 import re, os
 
-SRC_DIR = r'D:\kravzik-work\t40-hydraulic-quick-coupling\04-范本自审'
-DST_DIR = r'D:\kravzik-work\t40-hydraulic-quick-coupling\site\src\pages\blog'
+SRC_DIR = r'E:\HermesData\sites\kravzik-work\t40-hydraulic-quick-coupling\04-范本自审'
+DST_DIR = r'E:\HermesData\sites\kravzik-work\t40-hydraulic-quick-coupling\site\src\pages\blog'
 
 ARTICLES = [
   dict(file='范本01-ISO快接互换与选型指南.md', slug='iso-7241-vs-iso-16028-vs-iso-5675',
@@ -37,7 +37,7 @@ def slugify(s):
 def strip_meta(lines):
     out = []
     for ln in lines:
-        if re.match(r'^>\s*(范本|目标主词|做优对照|批量|词源)', ln):
+        if re.match(r'^>\s*(范本|目标主词|做优对照|批量|词源|体裁|字数目标)', ln):
             continue
         out.append(ln)
     return out

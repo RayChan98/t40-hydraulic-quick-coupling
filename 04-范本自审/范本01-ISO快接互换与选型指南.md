@@ -187,4 +187,4 @@ Send the existing part number (or photos of both halves), dimensions, and operat
 
 ---
 
-*相关指南：Hydraulic Quick Coupling Types & Selection Guide ｜ Quick Connect and Disconnect Couplings: Operation and Safety Guide*
+*Related guides: Hydraulic Quick Coupling Types & Selection Guide ｜ Quick Connect and Disconnect Couplings: Operation and Safety Guide*

@@ -30,7 +30,7 @@ toc:
 ---
 
 
-> 体裁：对比文（横向对比意图）
+<!--GENRE-STRIPPED-->
 
 
 ![Male straight-thread hydraulic fitting showing the sealing thread form](/images/blog/blog-iso-7241-series-a-vs-series-b-01.webp)

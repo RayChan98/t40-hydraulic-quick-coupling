@@ -118,4 +118,4 @@ Send us a photo of both halves, the markings (or measurements), and the machine 
 
 ---
 
-*相关指南：How to Identify Hydraulic Quick Couplings: A Field Guide ｜ ISO 7241 vs ISO 16028 vs ISO 5675: Interchange & Selection Guide*
+*Related guides: How to Identify Hydraulic Quick Couplings: A Field Guide | ISO 7241 vs ISO 16028 vs ISO 5675: Interchange & Selection Guide*

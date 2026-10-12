@@ -34,7 +34,7 @@ toc:
 ---
 
 
-> 体裁：参考/选型文（how-to + reference 混合）
+<!--GENRE-STRIPPED-->
 
 
 ![Flanged pipe section with hand-wheel valve in an outdoor plant](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-01.webp)
