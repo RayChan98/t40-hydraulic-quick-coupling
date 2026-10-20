@@ -2,7 +2,7 @@
 """S2 机器品牌矩阵生成器：品牌兼容快接页（ehhydraulics 模式，做深做准）"""
 import os, re
 
-BASE = r'D:\kravzik-work\t40-hydraulic-quick-coupling\site\src\pages'
+BASE = r'E:\HermesData\sites\kravzik-work\t40-hydraulic-quick-coupling\site\src\pages'
 
 TPL = '''---
 import Layout from '../layouts/Layout.astro';

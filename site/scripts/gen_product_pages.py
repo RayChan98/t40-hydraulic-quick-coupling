@@ -2,7 +2,7 @@
 """T-40 建站：批量生成产品/应用/OEM 页面（ProductPageTemplate 驱动）"""
 import os, json
 
-BASE = r'D:\kravzik-work\t40-hydraulic-quick-coupling\site\src\pages'
+BASE = r'E:\HermesData\sites\kravzik-work\t40-hydraulic-quick-coupling\site\src\pages'
 
 TPL = '''---
 import Layout from '../layouts/Layout.astro';
