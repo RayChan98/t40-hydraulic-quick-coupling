@@ -23,7 +23,8 @@ toc:
 > **B2B guide** — for equipment manufacturers who buy couplings in volume. This is the process we run on every OEM inquiry, and the five-piece RFQ packet is what makes a project fast instead of a loop.
 
 
-![CNC machining coupling bodies from bar stock](/images/blog/blog-oem-hydraulic-quick-couplings-guide-01.webp)
+![CNC turning lathe machining a metal part in a machine shop](/images/blog/blog-oem-hydraulic-quick-couplings-guide-01.webp)
+<!-- Image: Wikimedia Commons, “Tsugami CNC Lathe” by Whoisjohngalt, CC BY-SA 4.0 -->
 
 ## What OEM Means for Quick Couplings
 
@@ -39,7 +40,8 @@ Two flavors of OEM work:
 Most OEM projects start as branded standard and add custom elements over time — threads, special seals, dual markings, color-coded sleeves.
 
 
-![Finished machined coupling components after CNC turning](/images/blog/blog-oem-hydraulic-quick-couplings-guide-02.webp)
+![Finished machined stainless components laid out in trays](/images/blog/blog-oem-hydraulic-quick-couplings-guide-02.webp)
+<!-- Image: Wikimedia Commons, “Lampin Machined Components” by Whoisjohngalt, CC BY-SA 4.0 -->
 
 ## The RFQ Five-Piece Packet
 

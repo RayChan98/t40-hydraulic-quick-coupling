@@ -52,7 +52,8 @@ A Series A male half will not latch into a Series B female half, and vice versa.
 This guide explains the practical differences, how to tell them apart from the part number or the physical part, and what to specify so you never order the wrong family again.
 
 
-![Hydraulic ram battery plumbed with quick-connect supply lines](/images/blog/blog-iso-7241-series-a-vs-series-b-02.webp)
+![Male and female hydraulic quick coupling halves with locking ball bearings](/images/blog/blog-iso-7241-series-a-vs-series-b-02.webp)
+<!-- Image: Wikimedia Commons, “Schnellverschlusskupplung Serie LP” by UweFried, CC BY-SA 3.0 -->
 
 ## The Two Profiles in One Table
 

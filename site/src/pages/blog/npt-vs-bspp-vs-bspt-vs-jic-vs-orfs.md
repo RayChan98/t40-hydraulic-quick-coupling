@@ -37,10 +37,12 @@ toc:
 <!--GENRE-STRIPPED-->
 
 
-![Flanged pipe section with hand-wheel valve in an outdoor plant](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-01.webp)
+![Brass male threaded pipe plug measured with a vernier caliper](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-01.webp)
+<!-- Image: Wikimedia Commons, “Brass NPT threaded Pipe Plug in a Caliper” by BenFrantzDale, CC BY-SA 3.0 -->
 
 
-![Flanged pipe section with hand-wheel valve in an outdoor plant](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-01.webp)
+![Brass male threaded pipe plug measured with a vernier caliper](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-01.webp)
+<!-- Image: Wikimedia Commons, “Brass NPT threaded Pipe Plug in a Caliper” by BenFrantzDale, CC BY-SA 3.0 -->
 
 ## Intro — The Coupling Fits, the Thread Doesn't
 
@@ -51,7 +53,8 @@ The ISO profile defines how the two coupling halves connect. It says nothing abo
 There are six thread families you will meet on hydraulic quick couplings: NPT/NPTF, BSPP (G), BSPT (R), JIC (37° flare), ORFS, and metric (M). This guide explains what each is, where it dominates, how to tell them apart, and how to order so the threads match the first time.
 
 
-![Threaded connections and valves on an industrial pipe rack](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-02.webp)
+![Copper tube with hex flare nut fitting close-up](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-02.webp)
+<!-- Image: Wikimedia Commons, “Flare Fitting 2” by Mortezarahimi3rd, CC BY-SA 4.0 -->
 
 ## The Six Threads at a Glance
 

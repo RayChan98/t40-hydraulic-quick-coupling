@@ -25,7 +25,8 @@ toc:
 > **Maintenance guide** — this is a hands-on service article for technicians and fleet maintenance teams. It assumes the coupling is removed from the circuit and fully depressurized.
 
 
-![O-ring seals laid out for a seal replacement job](/images/blog/blog-hydraulic-quick-coupling-o-ring-replacement-01.webp)
+![Assortment of rubber O-ring seals laid out before replacement](/images/blog/blog-hydraulic-quick-coupling-o-ring-replacement-01.webp)
+<!-- Image: Wikimedia Commons, “O-Ringe 08050220.2” by Seilerei Pflug, CC BY-SA 3.0 -->
 
 ## Why O-Rings Are the Most-Replaced Part on a Quick Coupling
 
