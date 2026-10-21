@@ -23,7 +23,8 @@ toc:
 > **Application guide** — for tractor owners, dealers and implement makers. The ag market runs on ISO 5675, and the practical questions are about brands, sizes and retrofits.
 
 
-![Tractor pulling a mounted implement with hydraulic lines running to the rear outlets](/images/blog/blog-agricultural-hydraulic-couplers-iso-5675-guide-01.webp)
+![Rear three-point linkage of a John Deere tractor with a bank of hydraulic remote quick couplers and hose lines](/images/blog/blog-agricultural-hydraulic-couplers-iso-5675-guide-01.webp)
+<!-- Image: Wikimedia Commons, "John Deere 9630T Linkage at Belvoir 2010 - 3266" by BulldozerD11, CC BY-SA 3.0 -->
 
 ## What ISO 5675 Is
 

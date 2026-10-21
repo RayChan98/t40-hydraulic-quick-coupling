@@ -53,8 +53,8 @@ The ISO profile defines how the two coupling halves connect. It says nothing abo
 There are six thread families you will meet on hydraulic quick couplings: NPT/NPTF, BSPP (G), BSPT (R), JIC (37° flare), ORFS, and metric (M). This guide explains what each is, where it dominates, how to tell them apart, and how to order so the threads match the first time.
 
 
-![Copper tube with hex flare nut fitting close-up](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-02.webp)
-<!-- Image: Wikimedia Commons, “Flare Fitting 2” by Mortezarahimi3rd, CC BY-SA 4.0 -->
+![BSPP male parallel straight thread fitting in machined 316 stainless steel with Buna-N gasket](/images/blog/blog-npt-vs-bspp-vs-bspt-vs-jic-vs-orfs-02.webp)
+<!-- Image: Wikimedia Commons, "BSPP Male Straight Thread" by Kees08, CC BY-SA 4.0 -->
 
 ## The Six Threads at a Glance
 

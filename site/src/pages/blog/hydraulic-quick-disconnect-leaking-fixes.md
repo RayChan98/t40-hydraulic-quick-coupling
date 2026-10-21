@@ -48,7 +48,8 @@ This guide covers the five causes behind most leaking quick disconnects, how to 
 | 5 | Damaged valve face or locking groove | Leaks constantly; plug feels loose or grinds | Less common, usually abuse |
 
 
-![Crimp dies and hose fittings used to rebuild a leaking line](/images/blog/blog-hydraulic-quick-disconnect-leaking-fixes-02.webp)
+![Hydraulic hose end fitted with a metal coupling, worker rebuilding a leaking line on a Parker crimping press](/images/blog/blog-hydraulic-quick-disconnect-leaking-fixes-02.webp)
+<!-- Image: Wikimedia Commons, "Hose fitting crimper" by Jstapko, CC BY-SA 3.0 -->
 
 ## Cause 1 — Worn O-Rings and Seals
 

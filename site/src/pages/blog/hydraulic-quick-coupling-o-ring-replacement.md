@@ -35,7 +35,8 @@ A hydraulic quick coupling is a precision valve assembly, but its sealing is don
 Replacing them is the cheapest repair in hydraulics: a seal kit for a 1/2" ISO 7241 coupling typically costs a fraction of a new coupling and takes under ten minutes with the right tools. The risk is ordering the wrong kit, because the same coupling size carries **four different seals with four different jobs**, and they are not interchangeable.
 
 
-![Valve package assembly with sealing surfaces exposed for inspection](/images/blog/blog-hydraulic-quick-coupling-o-ring-replacement-02.webp)
+![Bagged NBR 70 Shore O-ring seal kit with supplier label and loose rings beside it](/images/blog/blog-hydraulic-quick-coupling-o-ring-replacement-02.webp)
+<!-- Image: Wikimedia Commons, "1990s O rings from Teknikprodukter i Bankeryd AB" by R. Henrik Nilsson, CC BY 4.0 -->
 
 ## Where the Seals Sit on ISO 7241, ISO 16028 and ISO 5675
 

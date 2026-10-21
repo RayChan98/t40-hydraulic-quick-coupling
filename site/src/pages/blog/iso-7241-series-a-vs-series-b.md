@@ -33,10 +33,12 @@ toc:
 <!--GENRE-STRIPPED-->
 
 
-![Male straight-thread hydraulic fitting showing the sealing thread form](/images/blog/blog-iso-7241-series-a-vs-series-b-01.webp)
+![Ball-lock hydraulic quick coupling half with knurled operating sleeve, locking groove and self-sealing poppet valve](/images/blog/blog-iso-7241-series-a-vs-series-b-01.webp)
+<!-- Image: Wikimedia Commons, "Schnellverschlusskupplung Serie LP" by UweFried, CC BY-SA 3.0 -->
 
 
-![Male straight-thread hydraulic fitting showing the sealing thread form](/images/blog/blog-iso-7241-series-a-vs-series-b-01.webp)
+![Ball-lock hydraulic quick coupling half with knurled operating sleeve, locking groove and self-sealing poppet valve](/images/blog/blog-iso-7241-series-a-vs-series-b-01.webp)
+<!-- Image: Wikimedia Commons, "Schnellverschlusskupplung Serie LP" by UweFried, CC BY-SA 3.0 -->
 
 ## Intro — Same Standard, Different Profiles
 
