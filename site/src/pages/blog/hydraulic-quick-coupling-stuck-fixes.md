@@ -34,7 +34,8 @@ This guide covers the five causes we see most often on ISO 7241, ISO 16028 and I
 > **Safety note:** Never use a pipe wrench, hammer or pry bar on a stuck quick coupling while the line is pressurized. Depressurize the circuit first. For flat-face (ISO 16028) couplings, use a pressure-relief tool such as the Parker FD89-1001-08-08 style or an IRB14-type relief adapter to bleed trapped pressure before disconnecting.
 
 
-![Pressure gauge on a line being depressurized before disconnect](/images/blog/blog-hydraulic-quick-coupling-stuck-fixes-01.webp)
+![Hand holding a hydraulic hose joined to a metal coupling, inspecting the connection point before disconnect](/images/blog/blog-hydraulic-quick-coupling-stuck-fixes-01.webp)
+<!-- Image: "Crimped hose ends" by Jstapko (Wikimedia Commons), CC BY-SA 3.0 -->
 
 ## Why Quick Couplings Get Stuck
 

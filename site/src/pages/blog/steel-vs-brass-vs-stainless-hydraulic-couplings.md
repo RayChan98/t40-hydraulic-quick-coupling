@@ -32,8 +32,8 @@ Hydraulic quick couplings are sold in three body materials — carbon steel, bra
 This guide compares the three materials on the properties that actually matter for quick couplings: strength, corrosion behavior, thread compatibility, weight, and cost — then maps them to applications.
 
 
-![Close-up of stainless steel press fitting ports and fittings](/images/blog/blog-steel-vs-brass-vs-stainless-hydraulic-couplings-01.webp)
-<!-- Image: Wikimedia Commons, “Stainless Steel Pressfittings GDPRESS” by Mchage, CC BY-SA 4.0 -->
+![Assortment of steel, stainless and brass hydraulic couplings and fittings on a bench mat](/images/blog/blog-steel-vs-brass-vs-stainless-hydraulic-couplings-01.webp)
+<!-- Image: “Swagelok Stainless Steel Fittings” by el cajon yacht club (Flickr), CC BY 2.0, via Openverse -->
 
 ## The Three Materials in One Table
 

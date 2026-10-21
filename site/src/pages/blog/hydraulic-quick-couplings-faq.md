@@ -23,7 +23,8 @@ toc:
 > **Reference article** — the questions customers actually ask, grouped by topic, with links to the full guides where each subject is covered in depth.
 
 
-![Industrial pressure gauges on a hydraulic system header](/images/blog/blog-hydraulic-quick-couplings-faq-01.webp)
+![Technician connecting a hydraulic component to quick-disconnect test lines on a pressure gauge panel](/images/blog/blog-hydraulic-quick-couplings-faq-01.webp)
+<!-- Image: U.S. Navy photo by Seaman Eboni C. Cameron, public domain (via Wikimedia Commons) -->
 
 ## Standards and Interchange
 

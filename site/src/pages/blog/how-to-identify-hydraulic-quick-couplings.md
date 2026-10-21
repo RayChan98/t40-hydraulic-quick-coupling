@@ -47,7 +47,8 @@ The cost of a wrong guess is downtime, at minimum. The wrong coupling can also f
 - **The right duty** — pressure class, flow, and temperature must suit the circuit.
 
 
-![Row of hydraulic quick coupler valves on a carrier machine](/images/blog/blog-how-to-identify-hydraulic-quick-couplings-02.webp)
+![Excavator attachment bracket with a row of capped hydraulic quick-coupling ports on its manifold](/images/blog/blog-how-to-identify-hydraulic-quick-couplings-02.webp)
+<!-- Image: "OilQuick-Kupplung" by StromBer (Wikimedia Commons), CC BY 3.0 -->
 
 ## Step 1: Record the Application
 
